@@ -1,0 +1,191 @@
+$about_black: #000000;
+$about_gris: #696969;
+
+.about_title {
+    font-family: 'Arkitech';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    color: about_gris;
+}
+
+.about_subTitle {
+    font-family: 'Gotham Light';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 28px;
+    text-align: justify;
+    color: about_black;
+}
+
+.about_transform {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 48px;
+    color: about_black;
+}
+
+//values
+.card-values {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.margin-left {
+    margin-left: 10px;
+}
+
+.margin-right {
+    margin-right: 10px;
+}
+
+.about_v_title {
+    font-family: 'Arkitech';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 19px;
+    color: $about_black;
+}
+
+.about_v_desc {
+    font-family: 'Gotham Light';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: justify;
+    color: $about_black;
+}
+
+.img-values-dime {
+    height: 310px;
+    width: 259px;
+}
+
+//mission and vision
+.card-mission {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.img-mission-card {
+    width: 100%;
+    height: 669px;
+}
+
+.about-mission-title {
+    font-family: 'Arkitech';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 39px;
+    color: $about_gris;
+}
+
+.about-mission-desc {
+    font-family: 'Gotham Light';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: $about_black;
+}
+
+.about-bottom-lema {
+    font-family: 'Gotham Light';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 40px;
+    text-align: justify;
+    color: $about_black;
+}
+
+
+
+//---page questions
+.txt-title-p-qts {
+    color: #020101b4;
+    font-weight: 600;
+}
+
+.txt-title-qts {
+    color: #696969;
+    font-weight: 600;
+}
+
+.title-principal-page-qts {
+    color: $about_black;
+    font-family: 'Arkitech';
+
+}
+
+.about-cover-initial {
+    height: 1057px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .margin-left {
+        margin-left: 0;
+    }
+
+    .margin-right {
+        margin-right: 0;
+    }
+
+
+    .about_title {
+        font-size: 20px;
+    }
+
+    .about_subTitle {
+        font-size: 16px;
+    }
+
+    .about_transform {
+        font-size: 28px;
+        text-align: center;
+    }
+
+
+    .about_v_title {
+        font-size: 13px;
+    }
+
+    .about_v_desc {
+        font-size: 9px;
+    }
+
+    .img-values-dime {
+        height: 250px;
+        width: 200px;
+    }
+
+    .about-cover-initial {
+
+        height: 250px;
+    }
+
+    .img-mission-card {
+        height: 339px;
+    }
+
+    .about-mission-title {
+        font-size: 20px;
+    }
+
+    .about-mission-desc {
+        font-size: 16px;
+    }
+    .about-bottom-lema{
+        font-size: 20px;
+    }
+}

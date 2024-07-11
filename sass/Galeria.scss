@@ -1,0 +1,30 @@
+.g_desc {
+    //styleName: SUB2;
+    font-family:"Gotham light";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #707372;
+
+}
+
+//****************empezar test*************
+.g_title {
+    color: #707372;
+
+    font-family: "Gotham";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+@media (max-width: 600px) {
+    .g_title {
+        font-size: 27px;
+    }
+}

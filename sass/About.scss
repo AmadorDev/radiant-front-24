@@ -1,0 +1,18 @@
+$about_black: #000000;
+$about_gris: #696969;
+
+.about_card {
+    border-radius: 13px;
+    border: 2px solid #D3D3D3;
+    background: #FFF;
+    width: 300px;
+    height: 342px;
+    flex-shrink: 0;
+}
+
+.about__description strong{
+    font-size: 18px;
+    font-weight: medium !important;
+}
+
+@media only screen and (max-width: 600px) {}

@@ -1,0 +1,122 @@
+$register-black: #2e2e2e;
+
+.bg-register {
+  background: $register-black !important;
+  height: 100%;
+  padding: 2rem;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-register .container {
+  // height: 219px;
+}
+
+.register-per {
+  background: $t-os !important;
+  color: $c-white;
+}
+
+.r-title {
+  font-family: "Arkitech";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 29px;
+  color: white;
+}
+
+.r-subtitle {
+  font-family: "Gotham Light";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 21px;
+  padding-left: 16%;
+  color: white;
+}
+
+.input-register {
+  // width: 60% !important;
+  background: #ffffff;
+  border: 1px solid #b0b1b1 !important;
+  border-radius: 30px !important;
+
+}
+
+
+
+.btn-g-regiter {
+  font-weight: 500;
+}
+
+.btn-register-n {
+  color: white;
+
+  background: #828282;
+  border-radius: 30px;
+}
+
+.bg-btn-color {
+  background: #828282;
+  color: white;
+  height: 40px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.t-register {
+  color: $c-white;
+}
+
+// .chk_per{
+//     width: 20px;
+//     height: 20px;
+//     background:  $t-os !important ;
+
+// }
+
+label input {
+  display: none;
+}
+
+label span {
+  width: 18px;
+  height: 18px;
+  border: 2px solid $c-white;
+  display: inline-block;
+  position: relative;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+[type="checkbox"]:checked+span:before {
+  content: "\2714";
+  position: absolute;
+  color: $c-white !important;
+  top: -5px;
+  left: -2px;
+}
+
+input:focus {
+  outline: none !important;
+  border-color: $c-g !important;
+  box-shadow: 0 0 2px $c-g !important;
+}
+
+@media (max-width: 600px) {
+  .r-title {
+    font-size: 20px;
+  }
+
+  .r-subtitle {
+    font-size: 16px;
+  }
+
+  .r-subtitle {
+    text-align: center;
+    padding-left: 0;
+  }
+}

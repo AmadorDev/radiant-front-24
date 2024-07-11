@@ -1,0 +1,525 @@
+$c-white: #F5F5F5;
+$c-white-os: #F5F5F5;
+
+$c-g: #D1CCBD;
+$c-g-os: #b1ada3;
+
+$-os: #2D2926;
+
+$black: #000000;
+
+//text
+$t-prin: #A2A3A3;
+$t-os: #2D2926;
+$t-trans: #707372;
+
+
+@import "./NavBar.scss";
+@import "./Register.scss";
+@import "./Footer.scss";
+@import "./CarruselPer.scss";
+@import "./Novedades.scss";
+@import "./Galeria.scss";
+@import "./Lineas.scss";
+@import "./TestCapilar.scss";
+@import "./Map.scss";
+@import "./Modal.scss";
+@import "./Watp.scss";
+@import "./About.scss";
+@import "./Products.scss";
+
+.btnPage {
+  background: $-os;
+
+  &:hover {
+    background: $black;
+  }
+}
+
+.divider {
+  background-color: none;
+  height: 148px !important;
+  border: 0px;
+  padding: 0px;
+}
+
+.space-page {
+  background-color: $t-trans;
+  height: 2px !important;
+  border: 0px;
+  padding: 0px;
+}
+
+.divider_dos {
+  background-color: none;
+  height: 78px !important;
+}
+
+
+
+.btn-general {
+  padding: 5px 40px;
+  background: $c-g !important;
+  color: $black;
+  border-radius: 8px;
+
+  &:hover {
+    background: $c-g-os !important;
+  }
+}
+
+.ml-6 {
+  margin-left: 60px !important;
+}
+
+.mb-per {
+  margin-bottom: 100px !important;
+}
+
+.btn-lsg {
+  font-family: "Gotham";
+  font-style: normal;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 8px 25px;
+  border-radius: 8px;
+  background: $c-g;
+  color: $-os;
+  font-size: 14px;
+
+
+  line-height: 16px;
+  letter-spacing: 1.25px;
+
+  &:hover {
+    background: $c-g-os !important;
+  }
+}
+
+//----------------------------------------TitleandsubTitle------
+.t_title_idx {
+  font-family: "Arkitech";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 56px;
+  letter-spacing: 0px;
+  color: $-os !important;
+}
+
+//styleName: H3;
+
+
+
+.t_subtitle_idx {
+
+  //styleName: SUB1;
+  font-family: "Myriad Pro";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  text-align: center;
+  color: $t_trans !important;
+
+
+
+}
+
+.t_desc_idx {
+  font-family: "Gotham light";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300 !important;
+  line-height: 24px;
+  letter-spacing: 0.8px;
+  text-align: center;
+  color: #707372 !important;
+
+}
+
+
+
+
+
+//----------------------------------------end TitleandsubTitle--------
+
+
+//----------------------------------------lineas destacadas--------
+
+.ld_title {
+  //styleName: H4;
+  font-family: "Gotham";
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: left;
+
+}
+
+
+.ld_subtitle {
+  //styleName: H5;
+  font-family: "Gotham";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.18000000715255737px;
+  text-align: left;
+
+
+}
+
+.ld_des {
+  //styleName: SUB2;
+  font-family: "Gotham light";
+  color: #707372;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+
+
+}
+
+.ld_img {
+  height: 418px;
+  width: 381px !important;
+
+  border-radius: 8px;
+
+
+}
+
+.card-body {
+  margin-top: 15px !important;
+  padding: 7px !important;
+}
+
+.main_menu nav>ul>li>a.active {
+  color: $-os;
+
+  // font-family: "Gotham";
+
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.4000000059604645px;
+
+  border-bottom: 1px solid $-os;
+
+}
+
+.link_deco-default {
+  display: flex;
+  width: 100%;
+  height: 7px;
+
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+}
+
+.link_deco {
+  display: flex;
+  width: 100%;
+  height: 7px;
+
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+}
+
+.link_deco_active {
+  display: flex;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: $-os;
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+}
+
+
+//*********************************Breakcrums************************
+.Breakcrums {
+  background: #CAD6E2;
+  color: #89969F;
+
+
+}
+
+
+.breadcrumb_content li a {
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.breakText li a {
+  font-family: "Gotham light";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 10px;
+  color: #89969F;
+}
+
+.breakText-active a {
+  color: $t-os !important;
+}
+
+.breadcrumb_content li a svg {
+  align-self: center;
+}
+
+//----------------------------------------end lineas destacadas--------
+@media (max-width: 768px) {
+  .div-hidden {
+    display: none;
+  }
+}
+@media (min-width: 769px) {
+  .div-hidden {
+    display: flex;
+  }
+}
+@media (max-width: 600px) {
+
+  .d-content-mobil-hidden{
+    display: hidden !important;
+  }
+
+
+  .t_title_idx {
+
+    font-size: 30px;
+
+  }
+
+  .t_subtitle_idx {
+
+    //styleName: SUB1;
+    // font-family: "Myriad Roman";
+    font-size: 14px;
+
+
+
+
+  }
+
+  .t_desc_idx {
+    // font-family: "Gotham";
+    font-size: 12px;
+
+  }
+
+
+
+  .ld_title {
+    //styleName: H4;
+    // font-family: Gotham;
+    font-size: 24px;
+
+
+  }
+
+
+  .ld_subtitle {
+    //styleName: H5;
+    // font-family: Gotham;
+    font-size: 16px;
+
+
+  }
+
+  .ld_des {
+    //styleName: SUB2;
+    // font-family: Gotham;
+    font-size: 12px;
+
+
+  }
+
+  .Breakcrums li a {
+    font-size: 12px;
+    line-height: 5px;
+  }
+
+}
+
+.btn-v2 {
+  flex-shrink: 0;
+  padding: 5px 13px !important;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+}
+
+
+.btn-v2 span {
+  font-family: Varela;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.btn-cancel-v2 {
+  border: 1px solid #000;
+  background: #FFF;
+}
+
+.btn-cancel-v2 span {
+  color: #0E0E0E;
+}
+
+.btn-black-v2 {
+  background: #0E0E0E;
+}
+
+.btn-black-v2 span {
+  color: white;
+}
+
+
+.btn-white-v2 {
+  background: #fff;
+}
+
+.btn-white-v2 span {
+  color: #0E0E0E !important;
+  font-weight: bold;
+
+}
+
+.max-w {
+  width: max-content !important;
+}
+
+.bg-gray {
+  background: #F6F6F6;
+}
+
+.bg-gray- {
+  background: #FAFAFA;
+}
+
+.bg-gray-2 {
+  background: #D3D3D3;
+}
+
+.divider-custom {
+  height: 98px;
+}
+
+.whatsapp-fixed {
+  transform: rotate(-90deg);
+  transform-origin: left top;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 200px;
+  height: 50px;
+  position: fixed;
+  top: 50%;
+  right: -150px;
+  // background: red;
+  z-index: 9999;
+}
+
+.wpp-card {
+  border-radius: 10px 10px 0px 0px;
+  background: #25D366;
+  color: #FFF;
+  font-family: Varela;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: max-content;
+  margin-top: 18px;
+  cursor: pointer;
+}
+
+.wpp-card:hover {
+  color: #FFF;
+}
+
+.not-a {
+  color: black !important;
+  text-decoration: none !important;
+}
+
+.title-about {
+  color: #0E0E0E;
+  font-family: Varela;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.title-about-sub {
+  color: #0E0E0E;
+  font-family: Varela;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.title-find-prod {
+  color: #0E0E0E;
+  text-align: center;
+  font-family: Varela;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.image-border {
+  border-radius: 13px;
+}
+
+.card-service {
+  border-radius: 13px;
+  border: 2px solid #D3D3D3;
+  background: #FFF;
+}
+
+.card-service-tile {
+  color: #0E0E0E;
+  font-family: Varela;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.card-service-subtitle {
+  color: #0E0E0E;
+  font-family: Varela;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .btn-v2 span {
+    font-size: 10px;
+  }
+
+  .divider-custom {
+    height: 30px;
+  }
+}

@@ -1,0 +1,134 @@
+.tc-card-image {
+    width: 130px;
+    height: 130px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #D9D9D9;
+}
+
+.tc-w-content {
+    width: 130px;
+}
+
+.text-q-title {
+    font-size: 36px;
+}
+
+.tc-circle-option {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    background: #D9D9D9;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.tc-circle-option.active {
+    background: #141414;
+}
+
+.tc-card-result {
+    width: 346px;
+    height: 346px;
+    flex-shrink: 0;
+    border-radius: 13px;
+    border: 2px solid #D3D3D3;
+}
+
+.tc-card-result_description {
+    height: 270px !important;
+    padding-left: 5px;
+    padding-right: 5px;
+    overflow-y: scroll !important;
+}
+
+.tc-card-result_description::-webkit-scrollbar {
+    width: 5px;
+    height: auto;
+    background: #0E0E0E;
+}
+
+.tc-card-result_description::-webkit-scrollbar-track {
+    background: #f5f5f5;
+    border-radius: 0;
+}
+
+.tc-card-result_description::-webkit-scrollbar-thumb {
+    background: #0E0E0E;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.tc-card-result_description::-webkit-scrollbar-thumb:hover {
+    background: #777;
+}
+
+
+
+
+
+
+
+
+
+
+.loading-result {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #fff;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 480px) {
+    .option_title {
+        font-size: 20px;
+        line-height: 2px;
+    }
+
+    .tc-circle {
+        width: 30px;
+        height: 30px;
+    }
+
+    .option_cuadros {
+        height: 28px;
+    }
+
+    .icon_img {
+        width: 100px;
+        height: 90px;
+    }
+
+    .tc-card-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .tc-w-content {
+        width: 100px;
+    }
+
+    .text-q-title {
+        font-size: 20px;
+    }
+
+    .tc-card-result {
+        width: 230px;
+        height: 230px;
+    }
+
+}

@@ -1,0 +1,119 @@
+.t-footer {
+
+    font-family: "Gotham";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    // line-height: 15px;
+    letter-spacing: 0.25px;
+    color: $t-os;
+}
+
+.t-footer-tran {
+    color: $t-trans;
+    font-family: "Gotham";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: 0.25px;
+}
+
+.link-footer {
+    font-family: "Gotham";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 20px;
+    cursor: pointer;
+
+}
+
+.yt_footer {
+    width: 20px !important;
+    height: 16px !important;
+    align-self: center;
+}
+
+.inst_footer {
+    width: 20px !important;
+    height: 18px !important;
+    align-self: center;
+}
+
+.fb_footer {
+    width: 16px !important;
+    height: 20px !important;
+    align-self: center;
+}
+
+.breakText li a {
+    font-family: "Gotham";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 36px;
+    /* identical to box height, or 129% */
+    display: flex;
+    align-items: center;
+
+    color: #89969F;
+}
+
+.footer-contact {
+    font-family: 'Arkitech';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 31px;
+    color: #000000;
+}
+
+.footer-email {
+    font-family: 'Gotham Light';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: justify;
+    color: #000000;
+}
+
+.footer-qts {
+    font-family: 'Gotham Light';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: right;
+    color: #000000;
+}
+
+.footer-redes-text {
+
+
+    color: #0E0E0E;
+    font-family: Varela;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .footer-contact {
+        font-size: 18px;
+    }
+
+    .footer-email {
+        font-size: 16px;
+    }
+
+    .footer-qts {
+        font-size: 18px;
+    }
+
+
+}

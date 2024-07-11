@@ -1,0 +1,1160 @@
+{
+    "register": [
+        {
+            "locale": "en-US",
+            "title": "Sign up here",
+            "subtitle": "we want to meet you",
+            "policy": "Review our privacy policies.",
+            "btn": "REGISTER"
+        },
+        {
+            "locale": "es-ES",
+            "title": "REGISTRATE AQUÍ",
+            "subtitle": "Queremos conocerte",
+            "policy": "Revisa nuestras políticas de privacidad.",
+            "btn": "Registrarme"
+        }
+    ],
+    "info": [
+        {
+            "locale": "en-US",
+            "address": "x",
+            "email": "contactanos.radiant@placentaliferadiant.com",
+            "contact": "x",
+            "address_text": "Address",
+            "email_text": "Email",
+            "contact_text": "Contact"
+        },
+        {
+            "locale": "es-ES",
+            "address": "x",
+            "email": "contactanos.radiant@placentaliferadiant.com",
+            "contact": "x",
+            "address_text": "Direccion",
+            "email_text": "Correo",
+            "contact_text": "Contacto"
+        }
+    ],
+    "menu_footer": [
+        {
+            "locale": "en-US",
+            "contact": "CONTACT US",
+            "find_us": "FIND US",
+            "services": "SERVICES",
+            "email_title": "Email",
+            "email": "contacto.radiant@lifecorp.pe",
+            "questions": "Frequent questions",
+            "policy": "Usage policies",
+            "text": "Stay up to date with the latest in hair care",
+            "btn": "subscribe",
+            "placeholder": "email"
+        },
+        {
+            "locale": "es-ES",
+            "contact": "CONTÁCTANOS",
+            "find_us": "ENCUÉNTRANOS",
+            "services": "SERVICIOS",
+            "email_title": "Correo",
+            "email": "contacto.radiant@lifecorp.pe",
+            "questions": "Preguntas frecuentes",
+            "policy": "Política de uso ",
+            "text": "Mantente al tanto de lo último en cuidado del cabello",
+            "btn": "suscribirme",
+            "placeholder": "correo electrónico"
+        }
+    ],
+    "lines": [
+        {
+            "locale": "en-US",
+            "line": "lines",
+            "event": "events",
+            "video": "videos",
+            "more": "see more",
+            "prod_title": "Products of Line",
+            "prod_desc": "This is the first blog post in English published on the blog",
+            "watch": "watch Video",
+            "yt": "watch on youtube"
+        },
+        {
+            "locale": "es-ES",
+            "line": "Lineas",
+            "event": "Eventos",
+            "video": "Videos",
+            "more": "ver más",
+            "prod_title": "Productos en líneas",
+            "prod_desc": "descripción del producto",
+            "watch": "Ver Video",
+            "yt": "VER EN  youtube"
+        }
+    ],
+    "text_home": {
+        "line": [
+            {
+                "locale": "en-US",
+                "line_featured": "Featured Lines",
+                "shortname": "Discover Our Products designed for you",
+                "btn": "see more"
+            },
+            {
+                "locale": "es-ES",
+                "line_featured": "Líneas Destacadas",
+                "shortname": "Descubre Nuestros Productos diseñados para ti",
+                "btn": "ver más"
+            }
+        ],
+        "galery": [
+            {
+                "locale": "en-US",
+                "galery": "Gallery",
+                "shortname": "Meet our finishes, with the highest technology for your hair"
+            },
+            {
+                "locale": "es-ES",
+                "galery": "Galería",
+                "shortname": "Conoce nuestros acabados, con la más alta tecnología para tu cabello"
+            }
+        ],
+        "cate_custom": [
+            {
+                "locale": "en-US",
+                "product": "Salon products"
+            },
+            {
+                "locale": "es-ES",
+                "product": "Productos de salon"
+            }
+        ],
+        "test": [
+            {
+                "locale": "en-US",
+                "title": "About us?",
+                "content": "We are Radiant, a professional brand specializing in hair care and coloring, which comes to inspire you and elevate your talent to the highest level. Our purpose is for you to influence your environment with the passion of your art and, through your talent, transform the beauty of each person and help them find their best version.",
+                "btn": "know more"
+            },
+            {
+                "locale": "es-ES",
+                "title": "¿Quiénes somos?",
+                "content": "Somos Radiant, marca profesional especialista en el cuidado del cabello y coloración, que llega para inspirarte y elevar tu talento al máximo  nivel. Nuestro propósito es que influyas a tu entorno con la pasión de tu arte y, a través de tu talento, transformes la belleza de cada persona y logres ayudarles a encontrar su mejor versión.  ",
+                "btn": "saber más"
+            }
+        ],
+        "find_product": [
+            {
+                "locale": "en-US",
+                "title": "FIND OUR ENTIRE RANGE OF PRODUCTS",
+                "one": "Repair and restoration",
+                "two": "Glow and Vitality",
+                "tree": "Hydration and Nutrition",
+                "four": "Without salt and Parabens"
+            },
+            {
+                "locale": "es-ES",
+                "title": "ENCUENTRA TODA NUESTRA GAMA DE PRODUCTOS ",
+                "one": "Reparación y restauración",
+                "two": "Brillo y Vitalidad",
+                "tree": "Hidratación y Nutrición",
+                "four": "Sin Sal y Parabenos"
+            }
+        ],
+        "test_hair": [
+            {
+                "locale": "es-ES",
+                "title": "Accede a tu Test Capilar",
+                "sub": "¿Necesitas saber cuál es la condición actual de tu cabello? <br> Enterate  aquí ",
+                "btn": "Test capilar"
+            },
+            {
+                "locale": "en-US",
+                "title": "Access your Hair Test",
+                "sub": "Do you need to know the current condition of your hair? Find out here",
+                "btn": "hair test"
+            }
+        ],
+        "left": [
+            {
+                "locale": "en-US",
+                "title": "Find your Radiant Lounge",
+                "content": "Find your Radiant salon to discover the radiant experience and the perfect products we have for you.",
+                "btn": "search "
+            },
+            {
+                "locale": "es-ES",
+                "title": "Encuentra tu Salón Radiant",
+                "content": "Encuentra tu salón Radiant para descubrir la experiencia radiant y los productos perfectos que tenemos para ti.",
+                "btn": "Buscar"
+            }
+        ],
+        "right": [
+            {
+                "locale": "en-US",
+                "title": "I want to sell Radiant",
+                "content": "Be part of the RADIANT PROFESSIONAL family, discover the exclusive benefits for our RADIANT PARTNERS and GROW with us.",
+                "btn": "SIGN UP"
+            },
+            {
+                "locale": "es-ES",
+                "title": "Deseo vender Radiant",
+                "content": "Forma parte de la familia RADIANT PROFESSIONAL, descubre los beneficios exclusivos para nuestros SOCIOS RADIANT y CRECE junto a nosotros.",
+                "btn": "REGISTRATE"
+            }
+        ]
+    },
+    "capilar_locale": {
+        "result": [
+            {
+                "locale": "en-US",
+                "title": "Hair Test: Result"
+            },
+            {
+                "locale": "es-ES",
+                "title": "Test capilar: Resultado"
+            }
+        ],
+        "index": [
+            {
+                "locale": "en-US",
+                "title": "Capillary test",
+                "shortname": "“Discover Our Products designed for you”",
+                "content_title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque porro quisquam est.",
+                "content_desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                "btn": "start"
+            },
+            {
+                "locale": "es-ES",
+                "title": "Test capilar",
+                "shortname": "“Descubre Nuestros Productos diseñados para ti”",
+                "content_title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Neque porro quisquam est.",
+                "content_desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+                "btn": "comenzar"
+            }
+        ],
+        "questions": {
+            "question_one": [
+                {
+                    "locale": "en-US",
+                    "title": "Question 1",
+                    "question": "What type of hair do you have?",
+                    "options": [
+                        "smooth",
+                        "Curly",
+                        "Curly",
+                        "I do not know"
+                    ]
+                },
+                {
+                    "locale": "es-ES",
+                    "title": "PREGUNTA 1",
+                    "question": "¿Qué tipo de cabello tienes?",
+                    "options": [
+                        "Liso",
+                        "Ondulado",
+                        "Rizado",
+                        "No lo sé"
+                    ]
+                }
+            ],
+            "question_two": [
+                {
+                    "locale": "en-US",
+                    "title": "Question 2",
+                    "question": "What is the last chemical process carried out?",
+                    "options": [
+                        "dyed without bleaching",
+                        "Dyed with Bleached",
+                        "smoothing",
+                        "Straightened with Dyed",
+                        "Neither"
+                    ]
+                },
+                {
+                    "locale": "es-ES",
+                    "title": "PREGUNTA 2",
+                    "question": "¿Cúal es el último proceso quimico realizado?",
+                    "options": [
+                        "Teñido sin Decolorar",
+                        "Teñido con Decolorado",
+                        "Alisado",
+                        "Alisado con Teñido",
+                        "Ninguno"
+                    ]
+                }
+            ],
+            "question_three": [
+                {
+                    "locale": "en-US",
+                    "title": "Question 3",
+                    "question": "What type of scalp do you have?",
+                    "options": [
+                        "Fatty",
+                        "Dried",
+                        "Mixed"
+                    ]
+                },
+                {
+                    "locale": "es-ES",
+                    "title": "PREGUNTA 3",
+                    "question": "¿Qué tipo de cuero cabelludo tienes?",
+                    "options": [
+                        "Graso",
+                        "Seco",
+                        "Mixto"
+                    ]
+                }
+            ],
+            "question_four": [
+                {
+                    "locale": "en-US",
+                    "title": "Question 4",
+                    "question": "How do you do your hair regularly?",
+                    "options": [
+                        "I tie it",
+                        "I iron it",
+                        "I curl it",
+                        "dryer use",
+                        "Dryer and iron",
+                        "I don't fix it"
+                    ]
+                },
+                {
+                    "locale": "es-ES",
+                    "title": "PREGUNTA 4",
+                    "question": "¿Cómo arreglas tu cabello regularmente?",
+                    "options": [
+                        "Lo amarro",
+                        "Lo plancho",
+                        "Lo rizo",
+                        "Uso secadora",
+                        "Secadora y plancha",
+                        "No lo arreglo"
+                    ]
+                }
+            ],
+            "question_five": [
+                {
+                    "locale": "en-US",
+                    "title": "Question 5",
+                    "question": "What is the main need of your hair?",
+                    "options": [
+                        "Hydration / Restructuring",
+                        "shine and smoothness",
+                        "Repair / Nutrition",
+                        "Smoothing Maintenance",
+                        "Neutralize blondes and eliminate frizz",
+                        "Hair rejuvenation"
+                    ]
+                },
+                {
+                    "locale": "es-ES",
+                    "title": "PREGUNTA 5",
+                    "question": "¿Cuál es la principal necesidad de tu cabello?",
+                    "options": [
+                        "Hidratación / Reestructuracion",
+                        "Brillo y suavidad",
+                        "Reparación / Nutrición",
+                        "Mantenimiento de alisado",
+                        "Neutralizar rubios y eliminar frizz",
+                        "Rejuvenecimiento capilar"
+                    ]
+                }
+            ]
+        }
+    },
+    "global_locale": [
+        {
+            "locale": "en-US",
+            "home": "Home",
+            "next": "next",
+            "prev": "previous",
+            "capillaries": "capillary test",
+            "product": "Products",
+            "event": "Events",
+            "testing": "Testings",
+            "more": "see more",
+            "news": "News",
+            "type_c": "hair type"
+        },
+        {
+            "locale": "es-ES",
+            "home": "Inicio",
+            "next": "siguiente",
+            "prev": "anterior",
+            "capillaries": "test capilar",
+            "product": "Productos",
+            "event": "Eventos",
+            "testing": "Pruebas",
+            "more": "ver más",
+            "news": "Novedades",
+            "type_c": "Tipo de cabello"
+        }
+    ],
+    "capilar_result": [
+        {
+            "locale": "en-US",
+            "title": "capillary test",
+            "result": "result",
+            "shortname": "“Discover Our Products designed for you”",
+            "view_product": "see products",
+            "view_salon": "see salon",
+            "view_shop": "see shop",
+            "find": "find"
+        },
+        {
+            "locale": "es-ES",
+            "title": "Test capillar",
+            "result": "resultado",
+            "shortname": "“Descubre Nuestros Productos diseñados para ti”",
+            "view_product": "ver productos",
+            "view_salon": "ver salones",
+            "view_shop": "ver tienda",
+            "find": "Encuentra"
+        }
+    ],
+    "news_event": [
+        {
+            "locale": "en-US",
+            "title": "Events",
+            "more": "see more",
+            "news": "news"
+        },
+        {
+            "locale": "es-ES",
+            "title": "Eventos",
+            "more": "ver más",
+            "news": "Novedades"
+        }
+    ],
+    "news_galleries": [
+        {
+            "locale": "en-US",
+            "title": "Galleries",
+            "more": "see more"
+        },
+        {
+            "locale": "es-ES",
+            "title": "Galerias",
+            "more": "ver más"
+        }
+    ],
+    "news_testing": [
+        {
+            "locale": "en-US",
+            "title": "test images",
+            "more": "see more"
+        },
+        {
+            "locale": "es-ES",
+            "title": "imagenes de pruebas",
+            "more": "ver más"
+        }
+    ],
+    "page_capillaries": [
+        {
+            "page_title": "Capillary test",
+            "locale": "en-US",
+            "title": "Do you want to repair your hair, but don't know what it needs?",
+            "subtitle": "Try our online hair diagnosis and leave your hair in the hands of beauty professionals.",
+            "subtitle_two": "We have 6 specialized post-maintenance lines, formulated with high technology and geared towards each type of hair according to its needs.",
+            "subtitle_tree": "DARE TO A CHANGE AND BRING OUT YOUR BEST VERSION!",
+            "btn": "START"
+        },
+        {
+            "locale": "es-ES",
+            "page_title": "Test capilar",
+            "title": "¿Deseas reparar tu cabello, pero no sabes qué necesita?",
+            "subtitle": "Prueba nuestro diagnóstico capilar en línea y deja tu cabello en las manos de los profesionales de la belleza.",
+            "subtitle_two": "Contamos con 6 líneas especializadas de post mantenimiento, formuladas con alta tecnología y orientadas a cada tipo de cabello según su necesidad.",
+            "subtitle_tree": "¡ATREVETE AL CAMBIO Y SACA TU MEJOR VERSIÓN!",
+            "btn": "EMPEZAR"
+        }
+    ],
+    "page_about": [
+        {
+            "title": "QUIENÉS SOMOS?",
+            "title2": "Nosotros",
+            "desc": "Nacimos con el propósito de acompañarte y mostrarle al mundo ese <strong>radiante talento.</strong> <br> <br>  Tu progreso, inteligencia y arte nos motiva como mision, sacando a la luz ese <strong>arte multifacético </strong> en los <strong>estilos</strong> que crean con nuestros productos para el cuidado del cabello.<br> <div class='mt-3'><strong >Radiant</strong> promete seguir el camino que diseñas para tu con una constante innovación que entusiasma  a las generaciones de </div> <div class='mt-2'>estilistas, siendo una marca <strong>atemporal</strong>.</div>",
+            "desc2": "En Radiant nos debemos a los estilistas, quienes, con su arte y dedicación, aportan belleza, bienestar y autoestima.<br> <strong>Fomentamos y cultivamos el amor propio,</strong> ese amor que esta en la búsqueda de convertirse en la mejor versión de si mismo. En Radiant somos <strong>agentes de transformación,</strong> desarrolladores de talentos somos una <strong>comunidad</strong> de una pasión inagotable, nos impulsamos unos a otros para alcanzar la prosperidad. Somos la suma de las personas que ayudamos a <strong>brillar</strong>",
+            "ser_title": "Nuestros productos",
+            "ser_desc": "En Radiant nos comprometemos con nuestro valor como marca, preocupandonos siempre en entregar la mejor calidad de productos. ",
+            "locale": "es-ES"
+        },
+        {
+            "title": "ABOUT US?",
+            "title2": "us",
+            "desc": "We were born with the purpose of accompanying you and showing the world that <strong>radiant talent.</strong> <br> <br> Your progress, intelligence and art motivates us as a mission, bringing to light that <strong>multifaceted art </ strong> in the <strong>styles</strong> they create with our hair care products.<br> <div class='mt-3'><strong >Radiant</strong> promises to follow the path you design for you with constant innovation that excites generations of </div> <div class='mt-2'>stylists, being a <strong>timeless</strong> brand.</div>",
+            "desc2": "At Radiant we owe it to the stylists, who, with their art and dedication, provide beauty, well-being and self-esteem.<br> <strong>We encourage and cultivate self-love,</strong> that love that is in the quest to become the best version of himself. At Radiant we are <strong>agents of transformation,</strong> talent developers, we are a <strong>community</strong> of inexhaustible passion, we drive each other to achieve prosperity. We are the sum of the people who help <strong>shine</strong>",
+            "ser_title": "Our products",
+            "ser_desc": "At Radiant we are committed to our value as a brand, always worrying about delivering the best quality of products.",
+            "locale": "en-US"
+        }
+    ],
+    "services": [
+        {
+            "locale": "es-ES",
+            "title1": "Tecnología capilar",
+            "sub1": "Trabajamos con profesionales, de talla mundial, especializados en tecnologia capilar de alto rendimiento e impacto. ",
+            "sub2": "Trabajamos con ingredientes no abrasivos y con tecnologia que nos ayuda a reducir residuos, siendo concientes del impacto que generamos en el planeta.",
+            "sub3": "Trabajamos con insumos provenientes de la biodiversidad de nuestras tierras peruanas.",
+            "title2": "Compromiso con el planeta",
+            "title3": "Insumos naturales"
+        },
+        {
+            "locale": "en-US",
+            "title1": "hair technology",
+            "sub1": "We work with world-class professionals, specialized in high-performance and impact hair technology.",
+            "sub2": "We work with non-abrasive ingredients and with technology that helps us reduce waste, being aware of the impact we generate on the planet.",
+            "sub3": "We work with inputs from the biodiversity of our Peruvian lands.",
+            "title2": "Commitment to the planet",
+            "title3": "Natural inputs"
+        }
+    ],
+    "test_": {
+        "en-US": {
+            "btn": "Previous",
+            "btn2": "Next",
+            "btn3": "Return to test",
+            "btn4": "See products",
+            "resultText": "The best products for you:",
+            "question1": {
+                "title": "What type of hair do you have?",
+                "items": [
+                    {
+                        "image": "",
+                        "name": "Straight",
+                        "value": 1,
+                        "option": "A"
+                    },
+                    {
+                        "image": "",
+                        "name": "Wavy",
+                        "value": 1,
+                        "option": "B"
+                    },
+                    {
+                        "image": "",
+                        "name": "Curly",
+                        "value": 1,
+                        "option": "C"
+                    },
+                    {
+                        "image": "",
+                        "name": "I don't know",
+                        "value": 1,
+                        "option": "D"
+                    }
+                ]
+            },
+            "question2": {
+                "title": "What is the last chemical process carried out?",
+                "items": [
+                    {
+                        "image": "",
+                        "name": "Unbleached Dyed",
+                        "value": 1,
+                        "option": "A"
+                    },
+                    {
+                        "image": "",
+                        "name": "Bleached Dyed",
+                        "value": 1,
+                        "option": "B"
+                    },
+                    {
+                        "image": "",
+                        "name": "Smoothing",
+                        "value": 1,
+                        "option": "C"
+                    },
+                    {
+                        "image": "",
+                        "name": "Dyed Straightening",
+                        "value": 1,
+                        "option": "D"
+                    },
+                    {
+                        "image": "",
+                        "name": "None",
+                        "value": 1,
+                        "option": "E"
+                    }
+                ]
+            },
+            "question3": {
+                "title": "What type of scalp do you have?",
+                "items": [
+                    {
+                        "image": "",
+                        "name": "Fatty",
+                        "value": 1,
+                        "option": "A"
+                    },
+                    {
+                        "image": "",
+                        "name": "Dry",
+                        "value": 1,
+                        "option": "B"
+                    },
+                    {
+                        "image": "",
+                        "name": "Mixed",
+                        "value": 1,
+                        "option": "C"
+                    }
+                ]
+            },
+            "question4": {
+                "title": "How do you do your hair regularly?",
+                "items": [
+                    {
+                        "image": "",
+                        "name": "I tie him up",
+                        "value": 1,
+                        "option": "A"
+                    },
+                    {
+                        "image": "",
+                        "name": "I iron it",
+                        "value": 1,
+                        "option": "B"
+                    },
+                    {
+                        "image": "",
+                        "name": "I curl it",
+                        "value": 1,
+                        "option": "C"
+                    },
+                    {
+                        "image": "",
+                        "name": "I use a dryer",
+                        "value": 1,
+                        "option": "D"
+                    },
+                    {
+                        "image": "",
+                        "name": "Dryer and iron",
+                        "value": 1,
+                        "option": "E"
+                    },
+                    {
+                        "image": "",
+                        "name": "I can't fix it",
+                        "value": 1,
+                        "option": "F"
+                    }
+                ]
+            },
+            "question5": {
+                "title": "What is the main need of your hair?",
+                "items": [
+                    {
+                        "image": "",
+                        "name": "Hydration / Restructuring",
+                        "value": 1,
+                        "option": "A"
+                    },
+                    {
+                        "image": "",
+                        "name": "Brightness and softness",
+                        "value": 1,
+                        "option": "B"
+                    },
+                    {
+                        "image": "",
+                        "name": "Repair/Nutrition",
+                        "value": 1,
+                        "option": "C"
+                    },
+                    {
+                        "image": "",
+                        "name": "Smoothing maintenance",
+                        "value": 1,
+                        "option": "D"
+                    },
+                    {
+                        "image": "",
+                        "name": "Neutralize blondes and eliminate frizz",
+                        "value": 1,
+                        "option": "E"
+                    },
+                    {
+                        "image": "",
+                        "name": "Hair rejuvenation",
+                        "value": 1,
+                        "option": "F"
+                    }
+                ]
+            }
+        },
+        "es-ES": {
+            "btn": "Anterior",
+            "btn2": "Siguiente",
+            "btn3": "Volver al test",
+            "btn4": "Ver productos",
+            "resultText": "Los mejores productos para ti:",
+            "question1": {
+                "title": "¿Qué tipo de cabello tienes?",
+                "items": [
+                    {
+                        "image": "",
+                        "name": "Liso",
+                        "value": 1,
+                        "option": "A"
+                    },
+                    {
+                        "image": "",
+                        "name": "Ondulado",
+                        "value": 1,
+                        "option": "B"
+                    },
+                    {
+                        "image": "",
+                        "name": "Rizado",
+                        "value": 1,
+                        "option": "C"
+                    },
+                    {
+                        "image": "",
+                        "name": "No lo sé",
+                        "value": 1,
+                        "option": "D"
+                    }
+                ]
+            },
+            "question2": {
+                "title": "¿Cúal es el último proceso quimico realizado?",
+                "items": [
+                    {
+                        "image": "",
+                        "name": "Teñido sin Decolorar",
+                        "value": 1,
+                        "option": "A"
+                    },
+                    {
+                        "image": "",
+                        "name": "Teñido con Decolorado",
+                        "value": 1,
+                        "option": "B"
+                    },
+                    {
+                        "image": "",
+                        "name": "Alisado",
+                        "value": 1,
+                        "option": "C"
+                    },
+                    {
+                        "image": "",
+                        "name": "Alisado con Teñido",
+                        "value": 1,
+                        "option": "D"
+                    },
+                    {
+                        "image": "",
+                        "name": "Ninguno",
+                        "value": 1,
+                        "option": "E"
+                    }
+                ]
+            },
+            "question3": {
+                "title": "¿Qué tipo de cuero cabelludo tienes?",
+                "items": [
+                    {
+                        "image": "",
+                        "name": "Graso",
+                        "value": 1,
+                        "option": "A"
+                    },
+                    {
+                        "image": "",
+                        "name": "Seco",
+                        "value": 1,
+                        "option": "B"
+                    },
+                    {
+                        "image": "",
+                        "name": "Mixto",
+                        "value": 1,
+                        "option": "C"
+                    }
+                ]
+            },
+            "question4": {
+                "title": "¿Cómo arreglas tu cabello regularmente?",
+                "items": [
+                    {
+                        "image": "",
+                        "name": "Lo amarro",
+                        "value": 1,
+                        "option": "A"
+                    },
+                    {
+                        "image": "",
+                        "name": "Lo plancho",
+                        "value": 1,
+                        "option": "B"
+                    },
+                    {
+                        "image": "",
+                        "name": "Lo rizo",
+                        "value": 1,
+                        "option": "C"
+                    },
+                    {
+                        "image": "",
+                        "name": "Uso secadora",
+                        "value": 1,
+                        "option": "D"
+                    },
+                    {
+                        "image": "",
+                        "name": "Secadora y plancha",
+                        "value": 1,
+                        "option": "E"
+                    },
+                    {
+                        "image": "",
+                        "name": "No lo arreglo",
+                        "value": 1,
+                        "option": "F"
+                    }
+                ]
+            },
+            "question5": {
+                "title": "¿Cuál es la principal necesidad de tu cabello?",
+                "items": [
+                    {
+                        "image": "",
+                        "name": "Hidratación / Reestructuracion",
+                        "value": 1,
+                        "option": "A"
+                    },
+                    {
+                        "image": "",
+                        "name": "Brillo y suavidad",
+                        "value": 1,
+                        "option": "B"
+                    },
+                    {
+                        "image": "",
+                        "name": "Reparación / Nutrición",
+                        "value": 1,
+                        "option": "C"
+                    },
+                    {
+                        "image": "",
+                        "name": "Mantenimiento de alisado",
+                        "value": 1,
+                        "option": "D"
+                    },
+                    {
+                        "image": "",
+                        "name": "Neutralizar rubios y eliminar frizz",
+                        "value": 1,
+                        "option": "E"
+                    },
+                    {
+                        "image": "",
+                        "name": "Rejuvenecimiento capilar",
+                        "value": 1,
+                        "option": "F"
+                    }
+                ]
+            }
+        }
+    },
+    "policy_page": [
+        {
+            "locale": "es-ES",
+            "title": "POLÍTICAS DE PRIVACIDAD ",
+            "description": "En <strong>Placenta Life Radiant Professional y Life Beauty Corporation </strong> nos preocupa el resguardo de la privacidad de nuestros clientes y usuarios. Tomamos medidas para generar un ambiente de confianza y seguridad, protegiendo la confidencialidad de los datos personales de los usuarios que visitan nuestro sitio web y/o tienen comunicación con nosotros vía correo electrónico, WhatsApp u otro medio de comunicación.<br/><br/>  Mediante la presente política de privacidad, de acuerdo con la Ley No. 29733, Ley de Protección de Datos Personales (“Ley”), y su reglamento aprobado mediante Decreto Supremo No. 003-2013-JUS (“Reglamento”), damos a conocer los lineamientos bajo los cuales realizamos el tratamiento de los datos personales que cada usuario o usuaria comparte con nosotros previo otorgamiento de su consentimiento libre, previo, expreso, inequívoco e informado.",
+            "items": [
+                {
+                    "title": "Bancos de datos personales",
+                    "description": "CORPORACION LIFE SAC (“Life Beauty Corporation”), identificada con RUC Nº 201234875411, con domicilio en Av. Javier Prado Este 578, distrito de San Isidro, provincia y departamento de Lima es la titular del banco de datos personales denominado “Clientes” que contiene los datos personales proporcionados por cada usuario o usuaria que ha creado una cuenta en el sitio web y concreta una compra de su marca principal Placenta Radiant Profesional. <br/>Asimismo, Life Beauty Corporation es titular del banco de datos personales denominado “Prospectos de clientes” que contiene los datos personales proporcionados por cada usuario o usuaria que ha creado una cuenta en el sitio web, ha brindado su correo electrónico para suscribirse y/o se ha contactado con Life Beauty Corporation por cualquier medio, mas no ha concretado una compra. Los mencionados bancos de datos constan en el Registro Nacional de Protección de Datos Personales a cargo de la Autoridad de Protección de Datos Personales."
+                },
+                {
+                    "title": "¿Cuáles son las finalidades del tratamiento?",
+                    "description": "Tratamos los datos personales de cada usuario o usuaria para la creación y mantenimiento de su cuenta, haya concretado una compra o no, así como para procesar sus compras, solicitudes y atender sus requerimientos, lo que incluye de manera enunciativa: la comunicación del estado de la compra, realizar la entrega de productos y gestionar cambios o devoluciones."
+                },
+                {
+                    "title": "¿Por cuánto tiempo realizamos el tratamiento?",
+                    "description": "Los datos personales proporcionados por cada usuario o usuaria se conservarán por el tiempo necesario para cumplir la finalidad del tratamiento hasta que solicite su cancelación."
+                },
+                {
+                    "title": "¿Las respuestas del formulario son obligatorias? ¿Cuál es la consecuencia de responder o negarse a hacerlo?",
+                    "description": "Las finalidades de tratamiento mencionadas en la presente política de privacidad son esenciales para la ejecución de la relación contractual y/o para contar con una cuenta activa y los datos solicitados son necesarios para cumplir dicha finalidad. Por lo tanto, el consentimiento por parte de un usuario o usuaria es obligatorio; de no otorgarse, Life Beauty Corporation no podrá realizar las finalidades descritas anteriormente."
+                },
+                {
+                    "title": "¿Se transfieren los datos personales a terceros?",
+                    "description": "Life Beauty Corporation contrata los servicios en la nube para el almacenamiento de sus datos personales a través de Google Inc, cuyos servidores se encuentran en Estados Unidos y utiliza el servicio de hosting de la web de Shopify Inc., cuyos servidores se encuentran en Canadá, por lo que realiza flujo transfronterizo hacia los países mencionados. "
+                },
+                {
+                    "title": "¿Cómo los usuarios ejercen los derechos establecidos en la Ley No? 29733?",
+                    "description": "Cada usuario o usuaria puede ejercer sus derechos de acceso, rectificación, oposición, cancelación, revocación y demás derechos consagrados en la Ley y su Reglamento, mediante una solicitud dirigida a contacto.radiant@lifecorp.pe"
+                },
+                {
+                    "title": "¿Cómo resguardamos la seguridad de los datos personales?",
+                    "description": "Life Beauty Corporation adopta las medidas de seguridad jurídicas, organizativas y técnicas apropiadas y establecidas en la Ley y su Reglamento para garantizar la protección de los datos personales de cada usuario o usuaria a fin de evitar su alteración, pérdida, tratamiento y/o acceso no autorizado. "
+                },
+                {
+                    "title": "Edad de consentimiento",
+                    "description": "Al brindar sus datos personales a Life Beauty Corporation, cada usuario o usuaria declara tener al menos catorce años o ser tutor de un menor de edad para otorgar el consentimiento de forma válida de acuerdo con la Ley. Life Beauty Corporation no lleva a cabo voluntariamente el tratamiento de Datos Personales relativos a menores de edad, salvo que se cuente con el debido consentimiento de acuerdo con la Ley y su Reglamento. En el supuesto de que se tenga conocimiento que los Datos Personales recogidos corresponden a un(a) menor de edad sin autorización de su tutor legal, se adoptarán las medidas oportunas para eliminarlos."
+                },
+                {
+                    "title": "Actualizaciones de la Política de Privacidad",
+                    "description": "Life Beauty Corporation se reserva expresamente el derecho a modificar o actualizar la presente Política de Privacidad. Cualquier modificación o actualización producida en la presente Política de Privacidad será inmediatamente comunicada a través del presente sitio web, de modo que cada usuario o usuaria tenga conocimiento de la información que recopila Life Beauty Corporation, los proveedores con los que trabaja y las circunstancias bajo las que realiza el tratamiento de los datos personales."
+                }
+            ]
+        },
+        {
+            "locale": "en-US",
+            "title": "PRIVACY POLICIES",
+            "description": "At <strong>Placenta Life Radiant Professional and Life Beauty Corporation </strong> we are concerned about protecting the privacy of our clients and users. We take measures to generate an environment of trust and security, protecting the confidentiality of the personal data of users who visit our website and/or communicate with us via email, WhatsApp or other means of communication.<br/> Through the This privacy policy, in accordance with Law No. 29733, Personal Data Protection Law (“Law”), and its regulations approved by Supreme Decree No. 003-2013-JUS (“Regulations”), we disclose the guidelines under which we process the personal data that each user shares with us after granting their free, prior, express, unequivocal and informed consent.",
+            "items": [
+                {
+                    "title": "personal data banks",
+                    "description": "CORPORACION LIFE SAC (“Life Beauty Corporation”), identified with RUC Nº 201234875411, with address at Av. Javier Prado Este 578, district of San Isidro, province and department of Lima, is the owner of the personal data bank called “Clients” that contains the personal data provided by each user who has created an account on the website and makes a purchase of its main Placenta Radiant Professional brand. <br/>Furthermore, Life Beauty Corporation is the owner of the personal data bank called “Customer prospects” that contains the personal data provided by each user who has created an account on the website, has provided their email to subscribe and/or have contacted Life Beauty Corporation by any means, but have not made a purchase. The aforementioned databases are included in the National Registry of Personal Data Protection in charge of the Personal Data Protection Authority."
+                },
+                {
+                    "title": "What are the purposes of the treatment?",
+                    "description": "We treat the personal data of each user for the creation and maintenance of their account, whether they have made a purchase or not, as well as to process their purchases, requests and meet their requirements, which includes, but is not limited to: communication of the status of the purchase, make the delivery of products and manage changes or returns."
+                },
+                {
+                    "title": "How long do we carry out the treatment?",
+                    "description": "The personal data provided by each user will be kept for the time necessary to fulfill the purpose of the treatment until you request its cancellation."
+                },
+                {
+                    "title": "Are the responses on the form mandatory? What is the consequence of responding or refusing to do so?",
+                    "description": "The treatment purposes mentioned in this privacy policy are essential for the execution of the contractual relationship and/or to have an active account and the requested data is necessary to fulfill said purpose. Therefore, the consent of a user or user is mandatory; if not granted, Life Beauty Corporation will not be able to perform the purposes described above."
+                },
+                {
+                    "title": "Are personal data transferred to third parties?",
+                    "description": "Life Beauty Corporation contracts cloud services for the storage of your personal data through Google Inc, whose servers are located in the United States and uses the web hosting service of Shopify Inc., whose servers are located in Canada, therefore, it carries out a cross-border flow to the aforementioned countries."
+                },
+                {
+                    "title": "How do users exercise the rights established in Law No? 29733?",
+                    "description": "Each user or user can exercise their rights of access, rectification, opposition, cancellation, revocation and other rights enshrined in the Law and its Regulations, by means of a request addressed to contacto.radiant@lifecorp.pe"
+                },
+                {
+                    "title": "How do we protect the security of personal data?",
+                    "description": "Life Beauty Corporation adopts the appropriate legal, organizational and technical security measures established in the Law and its Regulations to guarantee the protection of the personal data of each user in order to avoid its alteration, loss, treatment and/or unauthorized access. authorized. "
+                },
+                {
+                    "title": "age of consent",
+                    "description": "By providing their personal data to Life Beauty Corporation, each user declares to be at least fourteen years old or to be the guardian of a minor to validly grant consent in accordance with the Law. Life Beauty Corporation does not voluntarily carry out the processing of Personal Data relating to minors, unless there is due consent in accordance with the Law and its Regulations. In the event that it is known that the Personal Data collected corresponds to a minor without the authorization of their legal guardian, the appropriate measures will be taken to eliminate them."
+                },
+                {
+                    "title": "Privacy Policy Updates",
+                    "description": "Life Beauty Corporation expressly reserves the right to modify or update this Privacy Policy. Any modification or update produced in this Privacy Policy will be immediately communicated through this website, so that each user is aware of the information that Life Beauty Corporation collects, the suppliers with which it works and the circumstances under which that performs the processing of personal data."
+                }
+            ]
+        }
+    ],
+    "page_questions": [
+        {
+            "title": "PREGUNTAS FRECUENTES",
+            "items": [
+                {
+                    "title": "Decoloración",
+                    "subItems": [
+                        {
+                            "title": "¿La decoloración causa caída de cabello?",
+                            "content": "Una de las dudas más frecuentes es si la decoloración provoca caída del cabello. La respuesta es no, al menos no se experimenta una caída como tal en donde la hebra se desprende del folículo piloso. La decoloración no interviene en el normal funcionamiento de los folículos pilosos, por lo que ante una caída del cabello no sería, a priori, la causa de ello. Eso sí, lo que puede ocurrir es que ante una mala práctica o abuso de la decoloración el cabello se vuelva más quebradizo y se rompa con mayor facilidad.En definitiva, ante la pregunta de si la decoloración provoca caída del cabello la respuesta es no. La alopecia o un efluvio telógeno no se vinculan con esta técnica de peluquería"
+                        },
+                        {
+                            "title": "¿Qué es decolorar?",
+                            "content": "Es un proceso blanqueador del cabello mediante el empleo de químicos. Donde el peróxido de hidrógeno es el ingrediente principal con el que se consigue aclarar el cabello.<br/><br/>No debemos confundir la decoloración con los tintes, ya que no son lo mismo. Los tintes se usan para lograr la coloración del cabello, mientras que con la decoloración se consigue el efecto contrario. Es muy habitual que en los cabellos oscuros y para conseguir un determinado tono, los expertos en cabello decoloren el cabello antes de aplicar el tinte para obtener el color deseado combinando así ambos productos."
+                        },
+                        {
+                            "title": "¿Es verdad que es malo decolorar el cabello?",
+                            "content": "Se piensa que la decoloración provoca caída del pelo. Lo cierto es que los químicos que contiene la decoloración pueden llegar a debilitar el cabello volviéndolo más poroso. La fibra capilar se ve afectada hasta tal punto que este proceso químico puede alterar el pH de la piel produciendo reacciones alérgicas o dermatitis entre otros.<br/></br/>Para evitar esto es importante que sea un profesional el que aplique la decoloración, además de intentar no recurrir a ella con demasiada frecuencia ya que el pelo podría verse realmente perjudicado y terminar por romperse."
+                        },
+                        {
+                            "title": "¿Qué es un polvo decolorante?",
+                            "content": "Los polvos decolorantes son productos especializados para extraer la melanina del cabello, su fórmula química permite que la cutícula del cabello se abra y disuelve los gránulos de melanina que se encargan de dar color al cabello"
+                        },
+                        {
+                            "title": "¿Qué efecto puede generar la decoloración sobre mi cabello?",
+                            "content": "La decoloración del cabello te dará un resultado u otro dependiendo, siempre, de tu color de base así como el tipo de pigmento que tengas. Por eso, es posible que, si lo haces de forma casera o en espacios no profesionales de belleza, consigas un resultado anaranjado que no era lo que buscabas."
+                        }
+                    ]
+                },
+                {
+                    "title": "Coloración",
+                    "subItems": [
+                        {
+                            "title": "¿Por qué los tonos quedan o se tornan anaranjados?",
+                            "content": "Esta situación es bastante frecuente. Pero ¿por qué? El secreto está en el tono y las propiedades particulares de cada cabello. Cada persona tiene un fondo de aclaración o un tono base y, por ello, se tiene que conocer cuál es para saber el resultado que puede quedar tras la decoloración. Por poner un ejemplo, a las personas con el cabello muy negro puede ser que se les decolore en rojo cuando se sometan a este procedimiento. Y, en cambio, a las personas con el cabello más claro pueden obtener una tonalidad más anaranjada. Y es que la decoloración aclara el cabello, pero en ningún momento le quita el pigmento natural. Por ese motivo, es común que el cabello quede de un tono naranja tras haber sido decolorado."
+                        },
+                        {
+                            "title": "¿Qué es matizar y cuándo se debe hacer?",
+                            "content": "Aunque el cabello haya quedado anaranjado, podemos matizar el cabello y darle el tono que desees. Pero este tratamiento se recomienda que, siempre, se lleve a cabo por profesionales. De lo contrario, podrías dañarte mucho más el cabello y que quede áspero y reseco. Este matiz deberá realizarse una vez al mes o una vez cada mes y medio para conseguir que el color esté en perfecto estado.<br/><br/>La mecha no deberá realizarse con esta frecuencia, pero el color del tinte sí que es recomendable para que te veas siempre perfecta"
+                        },
+                        {
+                            "title": "¿Cada cuánto tiempo es recomendable realizarse una coloración?",
+                            "content": " El tiempo para retocar el cabello depende del ritmo de crecimiento de la raíz. Sin embargo, lo recomendable es hacerlo entre 15 y 45 días después de la coloración."
+                        },
+                        {
+                            "title": "¿La coloración puede conllevar a la caída de cabello?",
+                            "content": "Lo cierto es que hoy en día no se tiene constancia de ninguna relación entre tinte y caída. Lo que sí se puede producir es un debilitamiento de la fibra capilar ya que la utilización repetida de tintes, sobre todo los que llevan decoloración, alteran las propiedades fisicoquímicas del cabello y lo vuelven más débil y quebradizo lo que provoca que se rompa con mayor facilidad. Es precisamente esa rotura la que produce la pérdida de volumen, pero no una caída desde la raíz. En este sentido, y como parte de nuestros consejos para tinturarse el cabello, recomendamos el uso de productos hidratantes del tallo capilar para compensar este resecamiento y deshidratación."
+                        },
+                        {
+                            "title": "La importancia de usar productos profesionales y de calidad ",
+                            "content": "Nuestro cabello y por extensión nuestro cuero cabelludo es un elemento vivo, extensión de la piel, que precisa de unos cuidados específicos por lo que debemos asegurarnos de utilizar productos de calidad y lo menos agresivos posible para evitar una pérdida de su vitalidad. Productos diseñados con insumos que aporten nutrición, fortaleza y vitalidad a nuestro cuero cabelludo expuesto a procesos químicos."
+                        }
+                    ]
+                },
+                {
+                    "title": "Productos & Ingredientes",
+                    "subItems": [
+                        {
+                            "title": "¿Cuál es la línea de cuidado y tratamiento para cabellos secos y maltratados?",
+                            "content": "<strong>Radiant Pro Nutritive</strong>, a base de aceite de Macadamia, tiene una línea completa de productos que ayudaran a nutrir e hidratar profundamente los cabellos resecos y sin vida, mejorando su humectación y eliminando el molesto Frizz. Usa la rutina completa para mejores resultados."
+                        },
+                        {
+                            "title": "¿Cuál es la línea de cuidado y tratamiento para cabellos dañados y debilitados?",
+                            "content": "<strong>Radiant Pro Repair</strong>, a base de Aceite de Argán, tiene una línea completa de productos que ayudan a reparar las hebras dañadas y debilitadas, restaurándolas desde el interior."
+                        },
+                        {
+                            "title": "¿Qué producto es el ideal para cabello con color?",
+                            "content": "<strong>Radiant Pro Filler</strong>, a base de Ácido Hialurónico, tiene una línea que comprende 5 productos poderosos que cuida el cabello en todo el proceso desde el lavado, acondicionado, nutrición, corrección y protección de la hebra capilar expuesta a constantes daños. Un ritual ideal para mantener el cabello joven y sano a pesar de los procesos químicos. Mantiene y prolonga el color por más tiempo."
+                        },
+                        {
+                            "title": "¿Cuál es la línea para mantener un liso perfecto?",
+                            "content": "<strong>Radiant Post Liss</strong>, es una línea completa compuesta a base de aminoácidos naturales que ayudan prolongar el efecto del alisado por más tiempo. Cabello manejable, liso y sin frizz."
+                        },
+                        {
+                            "title": "¿Cuál es la línea ideal para el cabello natural?",
+                            "content": "<strong>Radiant Pro Luminous</strong>, es la línea a base de Keratina hidrolizada, capaz de elevar el brillo y vitalidad de los cabellos naturales y cabellos que han perdido luminosidad por falta de nutrientes o por procesos mecánicos del día a día"
+                        },
+                        {
+                            "title": "¿Cuál es la línea ideal para cabellos rubios o decolorados?",
+                            "content": "Radiant Pro Blonde</strong>, es una línea formulada a base de pigmentos violetas, que equilibra y los reflejos amarillentos y anaranjados no deseados, otorgando brillo y la tonalidad platinada tan deseada"
+                        },
+                        {
+                            "title": "¿Por qué la sal se considera perjudicial para el cabello tinturado o procesado químicamente?",
+                            "content": "<strong>El efecto corrosivo de los cristales de la sal, dañan, resecan y deterioran la coloración porque estos pulen la fibra y destiñen el color, que se aclara y va perdiendo brillo. Este inconveniente pasa desapercibido si llevas el cabello al natural, pero con los pigmentos del tinte el color puede cambiar por completo. Radiant ha desarrollado una formulación libre de sal para sus líneas post tratamiento, para el optimo cuidado y protección de la fibra capilar."
+                        },
+                        {
+                            "title": "¿Qué es un suero capilar y cuál es su función?",
+                            "content": "El sérum o suero ayuda a hidratar el cabello en profundidad, sella las cutículas reparando las puntas abiertas y dañadas, aporta un extra de brillo que hará que el cabello luzca radiante y saludable. Ayuda a combatir el encrespamiento. Protege el cabello del calor no solo de la plancha o secadora, sino también del sol y los agentes medio ambientales que se adhieren al cabello. El serum aplicado de manera nocturna tiene un doble efecto no solo reparador sino también nutritivo."
+                        },
+                        {
+                            "title": "¿Qué es una mascarilla capilar y cuál es su función?",
+                            "content": "Las mascarillas capilares son tratamientos formulados con aceites, mantecas y otros ingredientes nutritivos. Estas mascarillas capilares hidratantes pasan más tiempo penetrando en el cabello y nutriéndolo que un Shampoo o acondicionador habitual, y los beneficios que aportan en 1 solo paso son increíbles. Es alimento para el cabello."
+                        }
+                    ]
+                }
+            ],
+            "locale": "es-ES"
+        },
+        {
+            "title": "FREQUENT QUESTIONS",
+            "items": [
+                {
+                    "title": "Discoloration",
+                    "subItems": [
+                        {
+                            "title": "Does bleaching cause hair loss?",
+                            "content": "One of the most frequent questions is whether bleaching causes hair loss. The answer is no, at least you do not experience a fall as such where the strand detaches from the hair follicle. The discoloration does not intervene in the normal functioning of the hair follicles, so in the event of hair loss, it would not be, a priori, the cause of it. Of course, what can happen is that in the face of a bad practice or abuse of bleaching, the hair becomes more brittle and breaks more easily. In short, when asked if bleaching causes hair loss, the answer is no. Alopecia or telogen effluvium are not linked to this hairdressing technique."
+                        },
+                        {
+                            "title": "What is bleach?",
+                            "content": "It is a hair bleaching process through the use of chemicals. Where hydrogen peroxide is the main ingredient with which it is possible to lighten the hair.<br/><br/>We should not confuse bleaching with dyes, since they are not the same. Dyes are used to color hair, while bleaching has the opposite effect. It is very common that in dark hair and to achieve a certain tone, hair experts bleach the hair before applying the dye to obtain the desired color, thus combining both products."
+                        },
+                        {
+                            "title": "Is it true that it is bad to bleach your hair?",
+                            "content": "Bleaching is thought to cause hair loss. The truth is that the chemicals contained in bleaching can weaken the hair, making it more porous. The hair fiber is affected to such an extent that this chemical process can alter the pH of the skin, producing allergic reactions or dermatitis, among others.<br/></br/>To avoid this, it is important that a professional apply the discoloration, in addition to trying not to resort to it too often since the hair could be really damaged and end up breaking."
+                        },
+                        {
+                            "title": "What is a bleaching powder?",
+                            "content": "Bleaching powders are specialized products to extract melanin from the hair, their chemical formula allows the hair cuticle to open and dissolves the melanin granules that are responsible for giving hair color"
+                        },
+                        {
+                            "title": "What effect can bleaching have on my hair?",
+                            "content": "Bleaching your hair will give you one result or another depending, always, on your base color as well as the type of pigment you have. Therefore, it is possible that, if you do it at home or in non-professional beauty spaces, you will get an orange result that was not what you were looking for."
+                        }
+                    ]
+                },
+                {
+                    "title": "Coloration",
+                    "subItems": [
+                        {
+                            "title": "Why do the shades stay or turn orange?",
+                            "content": "This situation is quite common. But why? The secret is in the tone and the particular properties of each hair. Each person has a lightening background or a base tone and, therefore, you have to know what it is to know the result that may remain after bleaching. For example, people with very black hair may be bleached red when they undergo this procedure. And, on the other hand, people with lighter hair can get a more orange hue. And it is that bleaching lightens the hair, but at no time does it remove the natural pigment. For this reason, it is common for hair to have an orange tone after being bleached."
+                        },
+                        {
+                            "title": "What is nuance and when should it be done?",
+                            "content": "Although the hair has been orange, we can color the hair and give it the tone you want. But this treatment is always recommended to be carried out by professionals. Otherwise, you could do much more damage to your hair, leaving it coarse and dry. This nuance should be done once a month or once every month and a half to ensure that the color is in perfect condition.<br/><br/>The highlight should not be done with this frequency, but the color of the dye is recommended so that you always look perfect"
+                        },
+                        {
+                            "title": "How often is it recommended to perform a coloration?",
+                            "content": "The time to touch up the hair depends on the rate of root growth. However, it is recommended to do it between 15 and 45 days after coloring."
+                        },
+                        {
+                            "title": "Can coloring lead to hair loss?",
+                            "content": "The truth is that today there is no evidence of any relationship between dye and hair loss. What can occur is a weakening of the hair fiber since the repeated use of dyes, especially those that have discoloration, alter the physicochemical properties of the hair and make it weaker and more brittle, which causes it to break more easily. . It is precisely that breakage that produces the loss of volume, but not a fall from the root. In this sense, and as part of our tips for dyeing your hair, we recommend the use of moisturizing products for the hair shaft to compensate for this dryness and dehydration."
+                        },
+                        {
+                            "title": "The importance of using professional and quality products ",
+                            "content": "Our hair and by extension our scalp is a living element, an extension of the skin, which requires specific care, so we must ensure that we use quality products that are as non-aggressive as possible to avoid a loss of vitality. Products designed with inputs that provide nutrition, strength and vitality to our scalp exposed to chemical processes."
+                        }
+                    ]
+                },
+                {
+                    "title": "Products & Ingredients",
+                    "subItems": [
+                        {
+                            "title": "What is the care and treatment line for dry and damaged hair?",
+                            "content": "<strong>Radiant Pro Nutritive</strong>, based on Macadamia oil, has a complete line of products that will help to deeply nourish and hydrate dry and lifeless hair, improving its moisture and eliminating annoying Frizz. Use the full routine for best results."
+                        },
+                        {
+                            "title": "What is the care and treatment line for damaged and weakened hair?",
+                            "content": "<strong>Radiant Pro Repair</strong>, based on Argan Oil, has a complete line of products that help repair damaged and weakened strands, restoring them from within."
+                        },
+                        {
+                            "title": "What product is ideal for colored hair?",
+                            "content": "<strong>Radiant Pro Filler</strong>, based on Hyaluronic Acid, has a line that includes 5 powerful products that take care of the hair throughout the process from washing, conditioning, nourishing, correcting and protecting the hair strand exposed to constant damage. An ideal ritual to keep hair young and healthy despite chemical processes. Maintains and prolongs the color for longer."
+                        },
+                        {
+                            "title": "What is the line to maintain a perfect smooth?",
+                            "content": "<strong>Radiant Post Liss</strong>, is a complete line composed of natural amino acids that help prolong the smoothing effect for longer. Manageable, smooth and frizz-free hair."
+                        },
+                        {
+                            "title": "What is the ideal line for natural hair?",
+                            "content": "<strong>Radiant Pro Luminous</strong>, is the line based on hydrolyzed Keratin, capable of raising the shine and vitality of natural hair and hair that has lost luminosity due to lack of nutrients or due to day-to-day mechanical processes."
+                        },
+                        {
+                            "title": "What is the ideal line for blonde or bleached hair?",
+                            "content": "Radiant Pro Blonde</strong>, is a line formulated based on violet pigments, which balances unwanted yellowish and orange reflections, giving shine and the much-desired platinum hue."
+                        },
+                        {
+                            "title": "Why is salt considered harmful to colored or chemically processed hair?",
+                            "content": "<strong>The corrosive effect of salt crystals damages, dries out and deteriorates the color because they polish the fiber and fade the color, which lightens and loses its shine. This inconvenience goes unnoticed if you wear your hair natural, but with the dye pigments the color can change completely. Radiant has developed a salt-free formulation for its post-treatment lines, for optimal care and protection of the hair fiber."
+                        },
+                        {
+                            "title": "What is a hair serum and what is its function?",
+                            "content": "The serum or serum helps to hydrate the hair in depth, seals the cuticles repairing split and damaged ends, provides extra shine that will make the hair look radiant and healthy. Helps fight frizz. Protects hair from heat not only from the iron or dryer, but also from the sun and environmental agents that adhere to the hair. The serum applied at night has a double effect, not only repairing but also nourishing."
+                        },
+                        {
+                            "title": "What is a hair mask and what is its function?",
+                            "content": "Hair masks are treatments formulated with oils, butters, and other nourishing ingredients. These hydrating hair masks spend more time penetrating and nourishing the hair than a regular shampoo or conditioner, and the benefits they provide in just 1 step are incredible. It is hair food."
+                        }
+                    ]
+                }
+            ],
+            "locale": "en-US"
+        }
+    ],
+    "top_header": [
+        {
+            "world": "Mundo Radiant",
+            "salon": "Busca tu Salón",
+            "locale": "es-ES"
+        },
+        {
+            "world": "Radiant World",
+            "salon": "look for your living room",
+            "locale": "en-US"
+        }
+    ]
+}

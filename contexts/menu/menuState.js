@@ -11,21 +11,54 @@ const menuState = ({ children }) => {
   const initialState = {
     defaultMenu: [
       // { name: "Inicio", link: "/", locale: "es-ES" },
-      { name: "Hair Color", link: "/products/hair-color", locale: "es-ES" },
-      { name: "Hair Care", link: "/products/hair-care", locale: "es-ES" },
-      { name: "Productos de Salón", link: "/products", locale: "es-ES" },
-      { name: "quienes somos", link: "/about-us", locale: "es-ES" },
-      { name: "Test Capilar", link: "/capillaries", locale: "es-ES" },
+      {
+        name: "Diagnostica tu cabello",
+        link: "/capillaries",
+        hover: false,
+        locale: "es-ES",
+      },
+      {
+        name: "Productos",
+        link: "/products/hair-care",
+        hover: true,
+        locale: "es-ES",
+      },
+      {
+        name: "Nuestra Marca",
+        link: "/products",
+        hover: false,
+        locale: "es-ES",
+      },
+      {
+        name: "Sé un Salón Radiant",
+        link: "/about-us",
+        hover: false,
+        locale: "es-ES",
+      },
+
       // { name: "Blog", link: "/news", locale: "es-ES" },
       //us
 
       // { name: "Home", link: "/", locale: "en-US" },
-      { name: "Hair Color", link: "/products/hair-color", locale: "en-US" },
-      { name: "Hair Care", link: "/products/hair-care", locale: "en-US" },
-      { name: "Salon Products", link: "/products", locale: "en-US" },
-      { name: "about us", link: "/about-us", locale: "en-US" },
-      { name: "hair test", link: "/capillaries", locale: "en-US" },
-      // { name: "Blog", link: "/news", locale: "en-US" },
+      {
+        name: "Hair test",
+        link: "/capillaries",
+        hover: false,
+        locale: "en-US",
+      },
+      {
+        name: "Products",
+        link: "/products/hair-care",
+        hover: true,
+        locale: "en-US",
+      },
+      { name: "Our Brand", link: "/products", hover: false, locale: "en-US" },
+      {
+        name: "Be a Radiant Salon",
+        link: "/about-us",
+        hover: false,
+        locale: "en-US",
+      },
     ],
     register: {},
     info: {},
@@ -33,6 +66,7 @@ const menuState = ({ children }) => {
     line_st: {},
     cover_event: [],
     banner: [],
+    menu_options: [],
   };
 
   const [tologged, settologged] = useState({ isloading: true, logged: false });
@@ -64,6 +98,31 @@ const menuState = ({ children }) => {
     }
   }
 
+  async function getMenusOption() {
+    try {
+      const url = `${process.env.BACK_API}/menu`;
+
+      const params = {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+          locale: locale,
+        },
+      };
+      const result = await callFetch(url, params, null);
+      console.log("menus api", result);
+      if (result.status === "OK") {
+        dispatch({
+          type: "SET_MENU_OPTION",
+          value: result?.data,
+        });
+        settologged(false);
+      }
+    } catch (error) {
+      console.log("LOG: ", error);
+    }
+  }
+
   const staticTranslations = () => {
     const st = jsonTranslation.register.filter(
       (item) => item.locale === locale
@@ -82,14 +141,6 @@ const menuState = ({ children }) => {
       value: stinfo ? stinfo[0] : {},
     });
 
-    // const stamenufooter = jsonTranslation.menu_footer.filter(
-    //   (item) => item.locale === locale
-    // );
-    // dispatch({
-    //   type: "STATIC_FOOTER",
-    //   value: stamenufooter,
-    // });
-
     const staticline = jsonTranslation.lines.filter(
       (item) => item.locale === locale
     );
@@ -101,6 +152,7 @@ const menuState = ({ children }) => {
 
   useEffect(() => {
     getItemLinea();
+    getMenusOption();
     staticTranslations();
   }, [locale]);
 
@@ -120,6 +172,7 @@ const menuState = ({ children }) => {
   return (
     <MenuContext.Provider
       value={{
+        menu_options: state.menu_options,
         defaultMenu: state.defaultMenu,
         tologged,
         register: state.register,

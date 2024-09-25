@@ -1,15 +1,17 @@
-import { useState } from "react";
-import Container from "../components/layouts/Container";
-import ModalAnimate from "../components/utils/ModalAnimate";
-import ModalTa from "../components/utils/ModalTa";
+import Link from "next/link";
+
 
 function dev() {
-  const [show, setShow] = useState(false);
+
   return (
-    <Container>
-      <div className="p-3">page dev</div>
-    </Container>
-  );
+    <div>
+      sdfsdfdsfds
+
+      <Link href="/demo"> ir a demo</Link>
+    </div>
+
+
+);
 }
 
 export default dev;

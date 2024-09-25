@@ -38,6 +38,13 @@ const menuReducer = (state, action) => {
         ...state,
         banner: action.value,
       };
+
+      case "SET_MENU_OPTION":
+        console.log("sssxx",action);
+        return {
+          ...state,
+          menu_options: action.value,
+        };
     default:
       return state;
   }

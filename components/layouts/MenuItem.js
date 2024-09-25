@@ -12,9 +12,9 @@ export default function MenuItem({ item, className = "" }) {
     <>
       {item.code !== "cate" ? (
         <li className={className + " " + ""}>
-          <Link href={item.link}>
+          <Link href={item.link} className="text__li_final">
             <a
-              className={asPath === item.link ? "active" : null}
+              className={asPath === item.link ? "active " : null}
               target={item.ex ? "_blank" : null}
             >
               {" "}

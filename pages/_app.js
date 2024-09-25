@@ -26,8 +26,11 @@ import { useContext, useEffect, useState } from "react";
 
 import MenuState from "../contexts/menu/menuState";
 import menuContext from "../contexts/menu/menuContext";
+
+
+
 import { useRouter } from "next/router";
-import { Toaster } from 'react-hot-toast';
+import { Toaster } from "react-hot-toast";
 // import '~@/swiper/swiper-bundle.css';
 
 import "nprogress/nprogress.css";
@@ -37,7 +40,7 @@ const TopProgressBar = dynamic(
   () => {
     return import("../components/TopProgressBar");
   },
-  { ssr: false },
+  { ssr: false }
 );
 
 function MyApp({ Component, pageProps }) {
@@ -45,6 +48,7 @@ function MyApp({ Component, pageProps }) {
   const [loading, setLoading] = useState(false);
 
   function ProtectedRoute({ children }) {
+    console.log(menuContext);
     const { tologged } = useContext(menuContext);
     if (tologged.isloading) {
       return <Loading></Loading>;
@@ -65,17 +69,18 @@ function MyApp({ Component, pageProps }) {
   // }, [router]);
 
   return (
-    <MenuState>
-      <CapilarState>
-        <ProtectedRoute>
-          {/* <LoadingScreen loading={loading} /> */}
-          <TopProgressBar />
-          <Component {...pageProps} />
-          <Toaster position="bottom-right" reverseOrder={false} />
-        </ProtectedRoute>
-      </CapilarState>
-    </MenuState>
-
+  
+      <MenuState>
+        <CapilarState>
+          <ProtectedRoute>
+            {/* <LoadingScreen loading={loading} /> */}
+            <TopProgressBar />
+            <Component {...pageProps} />
+            <Toaster position="bottom-right" reverseOrder={false} />
+          </ProtectedRoute>
+        </CapilarState>
+      </MenuState>
+   
     // <Component {...pageProps} />
   );
 }

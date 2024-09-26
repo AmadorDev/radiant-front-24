@@ -6,10 +6,7 @@ import menuContext from "../../contexts/menu/menuContext";
 import MenuItem from "./MenuItem";
 import translations from "../../staticTranslations.json";
 
-export default function NavTitle() {
-  const { defaultMenu } = useContext(menuContext);
-  const { locale, locales, asPath } = useRouter();
-
+export default function NavTitle({ locale, asPath, defaultMenu }) {
   const translate = translations?.top_header;
   const txtTranslate = translate?.filter(
     (item, ind) => item.locale === locale

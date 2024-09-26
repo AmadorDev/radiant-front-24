@@ -641,6 +641,10 @@ $t-trans: #707372;
   text-align: center;
 }
 
+.nav__item.active{
+  border-bottom: 1px solid #0e0e0e !important;
+}
+
 .border-rl {
   border-radius: 15px 0px 0px 0px !important;
 }

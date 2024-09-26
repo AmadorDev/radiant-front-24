@@ -25,7 +25,7 @@ const menuState = ({ children }) => {
       },
       {
         name: "Nuestra Marca",
-        link: "/products",
+        link: "/about-us",
         hover: false,
         locale: "es-ES",
       },
@@ -52,7 +52,7 @@ const menuState = ({ children }) => {
         hover: true,
         locale: "en-US",
       },
-      { name: "Our Brand", link: "/products", hover: false, locale: "en-US" },
+      { name: "Our Brand", link: "/about-us", hover: false, locale: "en-US"   },
       {
         name: "Be a Radiant Salon",
         link: "/advisors",

@@ -162,20 +162,21 @@ export default function index() {
   };
   return (
     <Container>
-      <div className="container mx-auto">
-        <div className="relative">
-          <img
-            src="/images/v2/test.png"
-            alt=""
-            className="w-full"
-            style={{ borderRadius: 13 }}
-          />
-          <div className="absolute bottom-0  w-full  flex justify-center items-end ">
-            <div className="xs:text-base sm:text-2xl md:text-6xl font-normal text-white  font-['Varela'] uppercase">
-              TEST CAPILAR
-            </div>
+      <div className=" relative">
+        <img
+          src="/images/mask.svg"
+          alt=""
+          className="w-full"
+          
+        />
+        <div className="absolute bottom-0  w-full  flex justify-center items-end ">
+          <div className="xs:text-base sm:text-2xl md:text-6xl font-normal text-white  font-['Varela'] uppercase">
+            TEST CAPILAR
           </div>
         </div>
+      </div>
+
+      <div className="container mx-auto">
         <div className="divider-custom"></div>
         {/*  BEGIN:1 */}
         <div className={tapIndex == 1 ? "" : "hidden"}>

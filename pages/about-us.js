@@ -73,16 +73,16 @@ export default function index() {
           </div>
         </div>
         <div className="divider-custom"></div>
-        <div className="text-center">
+        {/* <div className="text-center">
           <div className="text-stone-950 text-[32px] font-normal font-['Varela']">
             {trans?.ser_title}
           </div>
           <div className="text-stone-950 text-[15px] font-normal font-['Varela'] mx-auto w-full md:w-2/4 mt-3">
             {trans?.ser_desc}
           </div>
-        </div>
+        </div> */}
 
-        <div className="flex flex-col md:flex-row justify-center items-center md:justify-between flex-wrap mt-5">
+        {/* <div className="flex flex-col md:flex-row justify-center items-center md:justify-between flex-wrap mt-5">
           <div className="about_card p-3 space-y-5 justify-center items-center flex flex-col mb-3 bg-blue-300">
             <img src="/images/v2/icon1.png" alt="" />
             <div className="text-stone-950 text-[23px] font-normal font-['Varela'] h-16">
@@ -110,7 +110,7 @@ export default function index() {
             {service.sub3}
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="divider-custom"></div>
       </div>

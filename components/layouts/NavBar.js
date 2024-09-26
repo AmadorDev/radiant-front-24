@@ -5,14 +5,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import menuContext from "../../contexts/menu/menuContext";
 import translations from "../../staticTranslations.json";
-export default function NavBar() {
-  const { defaultMenu, menu_options } = useContext(menuContext);
-  console.log(defaultMenu);
-
-  const { locale, locales, asPath } = useRouter();
-
-  const lag = locale.split("-")[0] || "es";
-
+export default function NavBar({ defaultMenu, menu_options, locale, lag }) {
   const translate = translations?.top_header;
   const txtTranslate = translate?.filter(
     (item, ind) => item.locale === locale
@@ -61,13 +54,14 @@ export default function NavBar() {
 
   return (
     <header>
-
-      
       <div className="main_header">
         <div className="header_middle " ref={stickyRef}>
           <div className="container">
             <div className="flex justify-between items-start">
               <div className="div-hidden">
+                <button className="btn-v2 btn-cancel-v2 max-w mr-2">
+                  <span>{txtTranslate.world}</span>
+                </button>
                 <Link href="/salons">
                   <button className="btn-v2 btn-black-v2 max-w">
                     <span>{txtTranslate.salon}</span>
@@ -80,10 +74,7 @@ export default function NavBar() {
                 </Link>
               </div>
               <div className="flex space-x-3 items-center justify-center div-hidden">
-                <button className="btn-v2 btn-cancel-v2 max-w">
-                  <span>{txtTranslate.world}</span>
-                </button>
-
+                {/* 
                 <div className="self-center">
                   <Link href={asPath} locale={"es-ES"}>
                     <img
@@ -106,6 +97,37 @@ export default function NavBar() {
                       className="  cursor-pointer"
                     ></img>
                   </Link>
+                </div> */}
+
+                <div className="flex items-center">
+                  <a
+                    href="https://icons.getbootstrap.com/icons/whatsapp/"
+                    target="blank_"
+                  >
+                    <img
+                      src="/images/flags/tiktok.svg"
+                      alt=""
+                      className="mr-2"
+                    />
+                  </a>
+                  <a
+                    href="https://icons.getbootstrap.com/icons/whatsapp/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img
+                      src="/images/flags/facebook.svg"
+                      alt=""
+                      className="mr-2"
+                    />
+                  </a>
+                  <a
+                    href="https://icons.getbootstrap.com/icons/whatsapp/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <img src="/images/flags/instagram.svg" alt="" />
+                  </a>
                 </div>
               </div>
             </div>
@@ -122,7 +144,6 @@ export default function NavBar() {
                             <div
                               key={index}
                               onMouseEnter={() => OpenMenu(item.hover)}
-                              
                             >
                               <MenuItem
                                 item={item}
@@ -136,12 +157,13 @@ export default function NavBar() {
                 </div>
               </div>
               {hoveredMenu && (
-                <div className="absolute top-10 z-50 h-auto bg-white " onMouseLeave={() => CloseMenu()}>
+                <div
+                  className="absolute top-10 z-50 h-auto bg-white "
+                  onMouseLeave={() => CloseMenu()}
+                >
                   <div className="flex justify-center p-5 space-x-10">
                     <div>
-                      <div className="mb-3 sub-menu-dy-" >
-                        Resultado deseado
-                      </div>
+                      <div className="mb-3 sub-menu-dy-">Resultado deseado</div>
                       {menu_options
                         ?.filter((p) => p.locale === lag && p.category_id == 1)
                         .map((item, index) => (
@@ -154,9 +176,7 @@ export default function NavBar() {
                     </div>
 
                     <div>
-                      <div className="mb-3 sub-menu-dy-" >
-                        Líneas
-                      </div>
+                      <div className="mb-3 sub-menu-dy-">Líneas</div>
                       {menu_options
                         ?.filter((p) => p.locale === lag && p.category_id == 1)
                         .map((item, index) => (

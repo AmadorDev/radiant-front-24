@@ -95,7 +95,7 @@ function Index({ product, query, locale }) {
 
 export async function getServerSideProps({ query, locale }) {
   const { id } = query;
-
+  console.log("id-----------",id)
   if (!id) {
     return {
       redirect: {
@@ -107,6 +107,8 @@ export async function getServerSideProps({ query, locale }) {
   }
 
   const product = await getProductsSearch(id, locale);
+  console.log("falla aaqui")
+  console.log(product)
 
   if (product.success) {
     return { props: { product: product.items, query, locale } };

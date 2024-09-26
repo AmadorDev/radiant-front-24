@@ -26,7 +26,8 @@ $t-trans: #707372;
 @import "./Modal.scss";
 @import "./Watp.scss";
 @import "./About.scss";
-@import "./Products.scss";
+@import "./SwiperCustom.scss";
+@import "./Product.scss";
 
 .btnPage {
   background: $-os;
@@ -286,14 +287,16 @@ $t-trans: #707372;
     display: none;
   }
 }
+
 @media (min-width: 769px) {
   .div-hidden {
     display: flex;
   }
 }
+
 @media (max-width: 600px) {
 
-  .d-content-mobil-hidden{
+  .d-content-mobil-hidden {
     display: hidden !important;
   }
 
@@ -525,9 +528,123 @@ $t-trans: #707372;
 }
 
 
-.text__li_final a{
+.text__li_final a {
   font-size: 15px !important;
-  color:#0E0E0E !important;
+  color: #0E0E0E !important;
   font-weight: 400 !important;
-  // font-family: varela regular;
+  font-family: "Varela", sans-serif;
+}
+
+.sub-menu-dy- {
+  font-size: 15px !important;
+  color: #7E7E7E !important;
+  font-weight: 400 !important;
+  font-family: "Varela", sans-serif !important;
+}
+
+.sub-menu-dy a {
+  font-size: 13px !important;
+  color: #000 !important;
+  font-weight: 400 !important;
+  font-family: "Varela", sans-serif !important;
+}
+
+
+.categories__item_card {
+  position: relative;
+  background: white;
+  border-radius: 13px;
+  width: 241px;
+  height: 241px;
+  font-size: 15px;
+  text-align: center;
+  color: #0E0E0E;
+}
+
+.categories__item_card img {
+  margin: auto;
+  height: 75%;
+}
+
+.line__x {
+  height: 1px;
+  width: 100%;
+  background: #eee;
+}
+
+.table___thead {
+  background: #0E0E0E;
+  color: white;
+
+
+
+}
+
+.table__ {
+  min-width: 600px; /* Establece un ancho mínimo para la tabla */
+  width: 100%; /* Asegúrate de que la tabla ocupe todo el ancho del contenedor */
+  border-collapse: collapse; /* Evita bordes dobles entre celdas */
+}
+
+.table-container {
+  overflow-x: auto; /* Cambia a auto para que se muestre el scroll solo cuando sea necesario */
+  width: 100%; /* Puedes ajustar esto según tus necesidades */
+  border: 2px solid #0E0E0E;
+  border-radius: 20px; /* Redondeo para todo el contenedor */
+}
+
+.table___body {
+  width: 100% !important;
+  border-collapse: collapse;
+}
+
+
+.table___thead th {
+  font-weight: 400 !important;
+  font-size: 20px;
+  padding: 10px 10px;
+  text-align: center;
+}
+
+.table___body td {
+  color: #0E0E0E;
+  font-size: 15px;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+
+.modal__contact_adv{
+  background-color: #0E0E0E;
+  color:white;
+  border-radius: 15px;
+  text-align: center;
+}
+.modal__contact_adv .a{
+  font-size: 23px !important;
+}
+.modal__contact_adv .b{
+  font-size: 15px !important;
+}
+.modal__contact{
+  font-size: 23px;
+  background: #0E0E0E;
+  color: white;
+  text-align: center;
+  width: max-content;
+  margin: auto;
+  padding: 0px 5px;
+}
+.modal__contact_text{
+  font-size: 23px;
+  color: #0E0E0E;
+  text-align: center;
+}
+
+.border-rl {
+  border-radius: 15px 0px 0px 0px !important;
+}
+
+.border-rll {
+  border-radius: 0px 15px 0px 0px !important;
 }

@@ -19,7 +19,7 @@ const menuState = ({ children }) => {
       },
       {
         name: "Productos",
-        link: "/products/hair-care",
+        link: "/products",
         hover: true,
         locale: "es-ES",
       },
@@ -31,7 +31,7 @@ const menuState = ({ children }) => {
       },
       {
         name: "Sé un Salón Radiant",
-        link: "/about-us",
+        link: "/advisors",
         hover: false,
         locale: "es-ES",
       },
@@ -48,14 +48,14 @@ const menuState = ({ children }) => {
       },
       {
         name: "Products",
-        link: "/products/hair-care",
+        link: "/products",
         hover: true,
         locale: "en-US",
       },
       { name: "Our Brand", link: "/products", hover: false, locale: "en-US" },
       {
         name: "Be a Radiant Salon",
-        link: "/about-us",
+        link: "/advisors",
         hover: false,
         locale: "en-US",
       },

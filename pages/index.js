@@ -20,16 +20,16 @@ export default function index() {
   return (
     <Container>
       <Banner></Banner>
-      <CateCustom translation={translation?.cate_custom}></CateCustom>
+      <CateCustom translation={translations?.categories}></CateCustom>
       {/* <LinesDest text={text_home?.line}></LinesDest> */}
       {/* <Galery text={text_home?.galery}></Galery> */}
       {/* <Videos></Videos> */}
 
       
       <TestInfo text={translation?.test}></TestInfo>
-      <FindProducts translation={translation?.find_product}></FindProducts>
+      {/* <FindProducts translation={translation?.find_product}></FindProducts> */}
       <HairTest translation={translation?.test_hair}></HairTest>
-      <ServicesCustom translation={services}></ServicesCustom>
+      {/* <ServicesCustom translation={services}></ServicesCustom> */}
       {/* <LastInfo
         textLeft={text_home?.left}
         textRight={text_home?.right}

@@ -35,6 +35,50 @@
             "contact_text": "Contacto"
         }
     ],
+    "categories": [
+        {
+            "locale": "es-ES",
+            "items": [
+                {
+                    "name": "Shampoo",
+                    "url": "/images/categories/a.svg"
+                },
+                {
+                    "name": "Tratamientos, Mascarilla y Acondicionador",
+                    "url": "/images/categories/b.svg"
+                },
+                {
+                    "name": "Aceites y Serúms Capilares",
+                    "url": "/images/categories/c.svg"
+                },
+                {
+                    "name": "Rutinas profesionalespara todos",
+                    "url": "/images/categories/d.svg"
+                }
+            ]
+        },
+        {
+            "locale": "en-US",
+            "items": [
+                {
+                    "name": "Shampoo",
+                    "url": "/images/categories/a.svg"
+                },
+                {
+                    "name": "Treatments, Masks and Conditioner",
+                    "url": "/images/categories/b.svg"
+                },
+                {
+                    "name": "Hair Oils and Serums",
+                    "url": "/images/categories/c.svg"
+                },
+                {
+                    "name": "Professional Routines for Everyone",
+                    "url": "/images/categories/d.svg"
+                }
+            ]
+        }
+    ],
     "menu_footer": [
         {
             "locale": "en-US",

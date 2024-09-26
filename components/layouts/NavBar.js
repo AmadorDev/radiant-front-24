@@ -57,10 +57,14 @@ export default function NavBar() {
     return () => window.removeEventListener("scroll", headerSticky);
   }, []);
 
+  //sticky-header :: hover nav scroll
+
   return (
     <header>
+
+      
       <div className="main_header">
-        <div className="header_middle sticky-header" ref={stickyRef}>
+        <div className="header_middle " ref={stickyRef}>
           <div className="container">
             <div className="flex justify-between items-start">
               <div className="div-hidden">
@@ -105,7 +109,7 @@ export default function NavBar() {
                 </div>
               </div>
             </div>
-            <div className="row align-items-center justify-items-center relative mt-3">
+            <div className="row align-items-center justify-items-center relative mt-4">
               <div className="col-12 ">
                 <div className="header_right_info menu_position  justify-content-center">
                   {/*main menu start*/}
@@ -132,16 +136,16 @@ export default function NavBar() {
                 </div>
               </div>
               {hoveredMenu && (
-                <div className="absolute top-10 z-50 h-auto bg-white" onMouseLeave={() => CloseMenu()}>
+                <div className="absolute top-10 z-50 h-auto bg-white " onMouseLeave={() => CloseMenu()}>
                   <div className="flex justify-center p-5 space-x-10">
                     <div>
-                      <div className="mb-3" style={{ color: "#7E7E7E" }}>
+                      <div className="mb-3 sub-menu-dy-" >
                         Resultado deseado
                       </div>
                       {menu_options
                         ?.filter((p) => p.locale === lag && p.category_id == 1)
                         .map((item, index) => (
-                          <div key={index} className="text-black text-sm mb-1">
+                          <div key={index} className=" sub-menu-dy mb-1">
                             <Link href={"/products/" + item.line_id}>
                               {item.short_name}
                             </Link>
@@ -150,13 +154,13 @@ export default function NavBar() {
                     </div>
 
                     <div>
-                      <div className="mb-3" style={{ color: "#7E7E7E" }}>
+                      <div className="mb-3 sub-menu-dy-" >
                         Líneas
                       </div>
                       {menu_options
                         ?.filter((p) => p.locale === lag && p.category_id == 1)
                         .map((item, index) => (
-                          <div key={index} className="text-black text-sm mb-1">
+                          <div key={index} className="sub-menu-dy mb-1">
                             <Link href={"/products/" + item.line_id}>
                               {item.name}
                             </Link>
@@ -165,13 +169,13 @@ export default function NavBar() {
                     </div>
 
                     <div>
-                      <div className="mb-3" style={{ color: "#7E7E7E" }}>
+                      <div className="mb-3 sub-menu-dy-">
                         Productos de cabina
                       </div>
                       {menu_options
                         ?.filter((p) => p.locale === lag && p.category_id == 2)
                         .map((item, index) => (
-                          <div key={index} className="text-black text-sm mb-1">
+                          <div key={index} className="sub-menu-dy mb-1">
                             <Link href={"/products/" + item.line_id}>
                               {item.name}
                             </Link>

@@ -1,0 +1,149 @@
+.products__title {
+    font-size: 32px;
+    color: #0E0E0E;
+    font-family: "Varela", sans-serif !important;
+    text-align: center;
+}
+
+.products__category_card {
+    height: 202px !important;
+    width: 307px !important;
+    background: white;
+    border: 1px solid #F6F6F6;
+    border-radius: 15px !important;
+}
+
+.products__category_card img {
+    margin: auto;
+    background-position: center;
+    object-fit: contain;
+    width: 100%;
+    height: 100%;
+}
+
+.products__category_card_footer {
+    background: #F6F6F6;
+    color: #0E0E0E;
+    font-size: 23px;
+    text-align: center;
+    border-radius: 0px 0px 15px 15px !important;
+}
+
+
+
+
+.products___line_title {
+    color: #0E0E0E;
+    font-size: 30px;
+}
+
+.products___line_description {
+    color: #0E0E0E;
+    font-size: 13px;
+}
+
+.products___line_img {
+    height: 300px !important;
+    width: 330px !important;
+    object-fit: cover;
+    border-radius: 20px;
+    background: #eeeeeec5;
+}
+
+.products___line_img img {
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.item__card_product {
+    height: 280px !important;
+    width: 280px !important;
+}
+
+.modal__product_content {
+    max-height: 250px !important;
+    overflow-y: scroll;
+}
+
+
+.prod-bg-opacity {
+    border-radius: 13px;
+    border: 1px solid #eee;
+    background: linear-gradient(to top, #C9C9C9, #C9C9C9 30%, #d3d3d3 50%, #dbdbdb 70%, #ffffff);
+    filter: linear-gradient(to bottom, lightblue, blue);
+}
+
+
+//modal
+
+.products__modal_title {
+    color: #0E0E0E;
+    font-size: 22px;
+
+}
+
+.products__modal_content {
+    color: #0E0E0E;
+    font-size: 15px;
+    scrollbar-width: thin;
+    scrollbar-color: #ccc #f1f1f1;
+
+}
+
+
+.products__modal_content::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.products__modal_content::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.products__modal_content::-webkit-scrollbar-thumb {
+    background: #0E0E0E;
+    border-radius: 10px;
+}
+
+.products__modal_content::-webkit-scrollbar-thumb:hover {
+    background: #0E0E0E;
+}
+
+
+
+
+.valera__font {
+    font-family: "Varela", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.advisor__title{
+    color:#7E7E7E;
+    font-size: 25px;
+    padding: 2px 16px;
+}
+.advisor__title.active{
+    color:#fff;
+    background: #0E0E0E;
+}
+
+
+@media (max-width: 640px) {
+    .products___line_img {
+        height: 200px !important;
+        width: 250px !important;
+        margin: auto;
+    }
+
+    .item__card_product {
+        height: 250px !important;
+        width: 250px !important;
+    }
+
+
+    .products__title {
+        font-size: 22px;
+    }
+}

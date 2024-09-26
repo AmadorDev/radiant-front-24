@@ -46,6 +46,12 @@ a {
   src: url("/fonts/Gotham-Light.ttf");
 }
 
+@font-face {
+  font-family: "Varela", sans-serif;
+  src: url("/fonts/Valera.ttf");
+}
+
+
 button {
   padding: 0.5rem 1rem !important;
   font-size: 1rem !important;

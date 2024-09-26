@@ -39,6 +39,48 @@ export async function getProductsCategory(category, locale) {
   }
 }
 
+
+export async function getProductsByLine(line, locale) {
+  try {
+    locale = locale.split("-")[0] || "es";
+    const response = await axios.get(
+      `${process.env.BACK_API}/products/lines/${line}?locale=${locale}`,
+      {
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    );
+    console.log("response.data : ", response.data);
+    return response.data;
+  } catch (error) {
+    console.log("error: ",error);
+    return null;
+  }
+}
+
+
+
+export async function getProductsBySubCategory(SubcategoryId, locale) {
+  try {
+    locale = locale.split("-")[0] || "es";
+    const response = await axios.get(
+      `${process.env.BACK_API}/products/subcategories/${SubcategoryId}?locale=${locale}`,
+      {
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    );
+    console.log("response.data : ", response.data);
+    return response.data;
+  } catch (error) {
+    console.log("error: ",error);
+    return null;
+  }
+}
+
+
 export async function getProducts(locale) {
   try {
     locale = locale.split("-")[0] || "es";

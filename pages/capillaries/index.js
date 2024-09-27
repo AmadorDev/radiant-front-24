@@ -142,7 +142,7 @@ export default function index() {
         console.log("combResult: ", combResult);
         if (!combResult) return;
         setLoading(true);
-        let id = combResult?.product;
+        let id = combResult?.line;
         router.push(`/capillaries/result?id=${id}`);
       }
     } else {

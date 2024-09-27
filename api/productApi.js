@@ -121,6 +121,25 @@ export async function getProductsSearch(id,locale) {
 }
 
 
+export async function getLineShow(line,locale) {
+  try {
+    locale = locale.split("-")[0] || "es";
+    const response = await axios.get(
+      `${process.env.BACK_API}/lines/${line}/?locale=${locale}`,
+      {
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    );
+    return response.data;
+  } catch (error) {
+    console.log("error: ");
+    return null;
+  }
+}
+
+
 //*********************************Event************************************/
 
 export async function getEventByProductAndLine(

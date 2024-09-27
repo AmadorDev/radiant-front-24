@@ -1,11 +1,13 @@
 import Link from "next/link";
-import { getProductsSearch } from "../../api/productApi";
-import Container from "../../components/layouts/Container";
-import translations from "../../staticTranslations.json";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
 
-function Index({ product, query, locale }) {
+import { getLineShow } from "../../api/productApi";
+
+import Container from "../../components/layouts/Container";
+import translations from "../../staticTranslations.json";
+
+function Index({ line, query, locale }) {
   const translation = translations?.test_[locale];
   const router = useRouter();
   useEffect(() => {
@@ -59,15 +61,15 @@ function Index({ product, query, locale }) {
 
           <div className="flex flex-col md:flex-row justify-center items-center space-x-0 sm:space-x-10 w-full md:w-3/4 mx-auto sm:mt-5 md:mt-14">
             <div className="tc-card-result">
-              <img src={product?.image} alt="" className="test-result-img" />
+              <img src={line?.image_url} alt="" className="test-result-img" />
             </div>
             <div className="">
               <div className="text-stone-950 md:text-[32px] text-[20px]  font-normal font-['Varela']">
-                {product?.name}
+                {line?.name}
               </div>
               <div
                 className=" tc-card-result_description text-stone-950 md:text-[15px] text-[13px] font-normal font-['Varela']"
-                dangerouslySetInnerHTML={{ __html: product?.description }}
+                dangerouslySetInnerHTML={{ __html: line?.description }}
               ></div>
             </div>
           </div>
@@ -80,7 +82,7 @@ function Index({ product, query, locale }) {
             </button>
           </Link>
 
-          <Link href="/products">
+          <Link href={`/products/${line?.line_id}`}>
             <button className="btn-v2 btn-black-v2 px-4">
               <span>{translation.btn4}</span>
             </button>
@@ -95,7 +97,6 @@ function Index({ product, query, locale }) {
 
 export async function getServerSideProps({ query, locale }) {
   const { id } = query;
-  console.log("id-----------",id)
   if (!id) {
     return {
       redirect: {
@@ -106,12 +107,10 @@ export async function getServerSideProps({ query, locale }) {
     };
   }
 
-  const product = await getProductsSearch(id, locale);
-  console.log("falla aaqui")
-  console.log(product)
+  const resp = await getLineShow(id, locale);
 
-  if (product.success) {
-    return { props: { product: product.items, query, locale } };
+  if (resp.success) {
+    return { props: { line: resp.items, query, locale } };
   }
 
   return {
